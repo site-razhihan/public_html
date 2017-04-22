@@ -1,0 +1,271 @@
+# Copyright (C) 2015 ProteusThemes
+# This file is distributed under the GPL 2.0.
+msgid ""
+msgstr "Project-Id-Version: CargoPress by ProteusThemes 0.0.0-tmp\nReport-Msgid-Bugs-To: http://support.proteusthemes.com/\nPOT-Creation-Date: 2015-04-14 09:50:38+00:00\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPO-Revision-Date: 2015-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nX-Generator: grunt-wp-i18n 0.5.3\nX-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\nLanguage: en\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Poedit-Country: United States\nX-Poedit-SourceCharset: UTF-8\nX-Poedit-Basepath: ../\nX-Poedit-SearchPath-0: .\nX-Poedit-Bookmarks: \nX-Textdomain-Support: yes\n"
+
+#: 404.php:16
+msgid "404 Picture"
+msgstr "Фото 404"
+
+#: 404.php:18
+msgid "LOOKS LIKE SOMETHING WENT WRONG!"
+msgstr "КАЖЕТСЯ, ЧТО-ТО ПОШЛО НЕ ТАК!"
+
+#: 404.php:23
+#. translators: the first %s for line break, the second and third %s for link
+#. to home page wrap
+msgid "The page you were looking for is not here. %s Go %s Home %s or try to search:"
+msgstr "Страница, которую вы ищете, не найдена. Перейдите с %s на %s Старт %s или попробуйте искать:"
+
+#: comments.php:21
+msgid "Comment Navigation"
+msgstr "Комментарий навигации"
+
+#: comments.php:22
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:23
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:32 comments.php:87
+msgid "Comments for this post are closed."
+msgstr "Комментарии для этой публикации закрыты."
+
+#: comments.php:43
+msgid "Write a Comment"
+msgstr "Напишите комментарий"
+
+#: comments.php:54
+msgid "First and Last name"
+msgstr "Имя и фамилия"
+
+#: comments.php:60
+msgid "E-mail Address"
+msgstr "Адрес эл. почты"
+
+#: comments.php:66
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: header.php:31
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: header.php:70
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#: inc/custom-comments.php:34
+msgid "Edit"
+msgstr "Править"
+
+#: inc/custom-comments.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: inc/helpers.php:36
+#. translators: %s represents a number
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s комментарий"
+msgstr[1] "%s комментариев"
+
+#: index.php:39
+msgid "Read More"
+msgstr "Читать далее"
+
+#: index.php:48 single.php:59
+msgid "Sorry, no results found."
+msgstr "Извините, результаты не найдены."
+
+#: part-main-title.php:57
+msgid "Search Results For"
+msgstr "Поиск результатов для"
+
+#: part-main-title.php:59
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: part-meta-data.php:4
+msgid "By"
+msgstr "Автор:"
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Поиск для:"
+
+#: searchform.php:12
+msgid "Search ..."
+msgstr "Поиск ..."
+
+#: single.php:43
+#. translators: after that comes pagination like 1, 2, 3 ... 10
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. Theme Name of the plugin/theme
+msgid "CargoPress by ProteusThemes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demo.proteusthemes.com/cargopress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "CargoPress WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ProteusThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.proteusthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Layer/Revolution Slider"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Front Page With Slider"
+msgstr ""
+
+#: comments.php:76
+msgctxt "noun"
+msgid "Your comment"
+msgstr "Ваш комментарий"
+
+#: functions.php:93
+msgctxt "backend"
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: functions.php:94
+msgctxt "backend"
+msgid "Top Bar Menu"
+msgstr "Меню верхней панели"
+
+#: inc/documentation-link.php:9 inc/documentation-link.php:10
+#: inc/documentation-link.php:21
+msgctxt "backend"
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/documentation-link.php:24
+msgctxt "backend"
+msgid "Click here to see online documentation of the theme!"
+msgstr "Нажмите здесь, чтобы увидеть онлайн-документацию по теме!"
+
+#: inc/filters.php:216
+msgctxt "backend"
+msgid "Widget Style"
+msgstr "Стиль виджета"
+
+#: inc/filters.php:218
+msgctxt "backend"
+msgid "Set a box around the widget"
+msgstr "Установить ящик вокруг виджета"
+
+#: inc/filters.php:224
+msgctxt "backend"
+msgid "Widget Title"
+msgstr "Название виджета"
+
+#: inc/filters.php:226
+msgctxt "backend"
+msgid "Exposed title (bigger font, thin line)"
+msgstr "Открытое название (шрифт больше, линия тоньше)"
+
+#: inc/theme-sidebars.php:12
+msgctxt "backend"
+msgid "Blog Sidebar"
+msgstr "Врезка блога"
+
+#: inc/theme-sidebars.php:14
+msgctxt "backend"
+msgid "Sidebar on the blog layout."
+msgstr "Врезка на схеме блога."
+
+#: inc/theme-sidebars.php:26
+msgctxt "backend"
+msgid "Regular Page Sidebar"
+msgstr "Постоянная врезка на странице"
+
+#: inc/theme-sidebars.php:28
+msgctxt "backend"
+msgid "Sidebar on the regular page."
+msgstr "Врезка на постоянной странице."
+
+#: inc/theme-sidebars.php:41
+msgctxt "backend"
+msgid "Shop Sidebar"
+msgstr "Врезка магазина"
+
+#: inc/theme-sidebars.php:43
+msgctxt "backend"
+msgid "Sidebar for the shop page"
+msgstr "Врезка на странице магазина"
+
+#: inc/theme-sidebars.php:56
+msgctxt "backend"
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/theme-sidebars.php:58
+msgctxt "backend"
+msgid "Header area for Icon Box and Social Icons widgets."
+msgstr "Область заголовка для Ящика со значками и виджетов с Социальными значками."
+
+#: inc/theme-sidebars.php:67
+msgctxt "backend"
+msgid "Navigation"
+msgstr "Навигация"
+
+#: inc/theme-sidebars.php:69
+msgctxt "backend"
+msgid "Navigation area for Social Icons widgets."
+msgstr "Область навигации для виджетов с Социальными значками."
+
+#: inc/theme-sidebars.php:82
+msgctxt "backend"
+msgid "Footer"
+msgstr "Сноска"
+
+#: inc/theme-sidebars.php:84
+msgctxt "backend"
+msgid "Footer area works best with %d widgets. This number can be changed in the Appearance &rarr; Customize &rarr; Theme Options &rarr; Footer."
+msgstr "Область сноски лучше всего работает с %d виджетами. Это количество можно изменить в Вид &rarr; Настроить &rarr; Варианты темы &rarr; Сноска."
+
+#: inc/theme-vc-home-page-template.php:11
+msgctxt "backend"
+msgid "CargoPress: Front Page"
+msgstr "CargoPress: первая страница"
+
+#: inc/custom-comments.php:28
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s на %2$s"
+
+#: inc/filters.php:92
+msgctxt "custom read more text after the post excerpts"
+msgid " &hellip;"
+msgstr ""
+
+#: inc/filters.php:179
+#. translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/helpers.php:95
+#. translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
