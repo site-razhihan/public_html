@@ -72,5 +72,7 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 	</div>
 </div>
 <?php else: ?>
-	<?php layerslider(2) ?>
+	<div class="slider-block">
+	<?php layerslider(1) ?>
+	</div>
 <?php endif; ?>
