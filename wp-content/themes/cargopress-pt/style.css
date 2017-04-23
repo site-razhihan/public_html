@@ -51,8 +51,14 @@ Text domain: cargopress-pt
 
 	Remove what is not necessary
 \*------------------------------------*/
+
+@font-face {
+  font-family: BebasNeueLight; /* Имя шрифта */
+  src: url(assets/fonts/bebas/ttf/BebasNeueLight.ttf); /* Путь к файлу со шрифтом */
+}
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+html { font-family: 'BebasNeueLight', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
 body { margin: 0; }
 
@@ -1550,7 +1556,7 @@ input, select, textarea { outline: 0; }
 .main-navigation > li:hover > .sub-menu, .main-navigation > li:focus > .sub-menu, .main-navigation > li[aria-expanded="true"] > .sub-menu { left: 0; }
 @media (min-width: 992px) { .main-navigation > .current-menu-item > a::after { position: absolute; content: ""; width: calc(100% - 30px); height: 5px; left: 15px; bottom: 0; background-color: #e21f2f; } }
 @media (min-width: 992px) { .main-navigation .menu-item-has-children > a { padding: 18px 35px 18px 20px; } }
-@media (min-width: 992px) { .main-navigation .menu-item-has-children::after { position: absolute; content: "\f0d7"; font-family: "FontAwesome"; font-size: 12px; right: 18px; top: calc(50% - 10px); color: #ffffff; } }
+/*@media (min-width: 992px) { .main-navigation .menu-item-has-children::after { position: absolute; content: "\f0d7"; font-family: "FontAwesome"; font-size: 12px; right: 18px; top: calc(50% - 10px); color: #ffffff; } }*/
 .main-navigation .menu-item-has-children:hover::after { color: #1f425d; }
 @media (min-width: 992px) { .main-navigation .menu-item-has-children:hover > a { color: #1f425d; background-color: #ffffff; border-top-left-radius: 2px; border-top-right-radius: 2px; padding: 8px 30px 18px 15px; margin: 10px 5px 0 5px; } }
 @media (min-width: 992px) { .main-navigation .menu-item-has-children:hover > a::before { right: -7px; top: 18px; } }
@@ -2745,7 +2751,8 @@ a > img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 .fa-stack-overflow:before { content: ""; }
 
-.fa-instagram:before { content: ""; }
+/*.fa-instagram:before { content: ""; }*/
+.fa-instagram:before { content: "\f16d"; }
 
 .fa-flickr:before { content: ""; }
 

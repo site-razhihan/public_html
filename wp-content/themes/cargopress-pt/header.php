@@ -48,13 +48,45 @@
 	<div class="header__container">
 		<div class="container">
 			<header class="header" role="banner">
-				<div class="address__widgets">
-					<?php
-						if ( is_active_sidebar( 'address-widgets' ) ) {
-							dynamic_sidebar( 'address-widgets' );
-						}
-					?>
-				</div>
+				<div class="top-main main-1">
+					<div class="address__widgets">
+						<?php
+							if ( is_active_sidebar( 'address-widgets' ) ) {
+								dynamic_sidebar( 'address-widgets' );
+							}
+						?>
+					</div>
+					<div class="header__navigation  js-sticky-offset no-desctop">
+						<nav class="collapse  navbar-collapse" role="navigation" aria-label="<?php _e( 'Main Menu', 'cargopress-pt' ); ?>" id="cargopress-navbar-collapse">
+							<?php
+							if ( has_nav_menu( 'main-menu' ) ) {
+								wp_nav_menu( array(
+									'theme_location' => 'main-menu',
+									'container'      => false,
+									'menu_class'     => 'main-navigation  js-main-nav  js-dropdown',
+									'walker'         => new Aria_Walker_Nav_Menu(),
+									'items_wrap'     => '<ul id="%1$s" class="%2$s" role="menubar">%3$s</ul>',
+								) );
+							}
+							?>
+						</nav>
+					</div>	
+					<div class="header__navigation  js-sticky-offset">
+						<nav class="collapse  navbar-collapse" role="navigation" aria-label="<?php _e( 'Main Menu', 'cargopress-pt' ); ?>" id="cargopress-navbar-collapse">
+							<?php
+							if ( has_nav_menu( 'main-menu-1' ) ) {
+								wp_nav_menu( array(
+									'theme_location' => 'main-menu-1',
+									'container'      => false,
+									'menu_class'     => 'main-navigation  js-main-nav  js-dropdown',
+									'walker'         => new Aria_Walker_Nav_Menu(),
+									'items_wrap'     => '<ul id="%1$s" class="%2$s" role="menubar">%3$s</ul>',
+								) );
+							}
+							?>
+						</nav>
+					</div>	
+				</div>		
 				<div class="header__logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
 					<?php
@@ -82,33 +114,30 @@
 						</span>
 					</button>
 				</div>
-				<div class="header__navigation  js-sticky-offset">
-					<nav class="collapse  navbar-collapse" role="navigation" aria-label="<?php _e( 'Main Menu', 'cargopress-pt' ); ?>" id="cargopress-navbar-collapse">
-						<?php
-						if ( has_nav_menu( 'main-menu' ) ) {
-							wp_nav_menu( array(
-								'theme_location' => 'main-menu',
-								'container'      => false,
-								'menu_class'     => 'main-navigation  js-main-nav  js-dropdown',
-								'walker'         => new Aria_Walker_Nav_Menu(),
-								'items_wrap'     => '<ul id="%1$s" class="%2$s" role="menubar">%3$s</ul>',
-							) );
+				<div class="top-main main-2">
+					<div class="header__widgets">
+					<?php
+						if ( is_active_sidebar( 'header-widgets' ) ) {
+							dynamic_sidebar( 'header-widgets' );
 						}
-						?>
-					</nav>
-				</div>			
-				<div class="header__widgets">
-				<?php
-					if ( is_active_sidebar( 'header-widgets' ) ) {
-						dynamic_sidebar( 'header-widgets' );
-					}
-				?>
+					?>
+					</div>
+					<div class="header__navigation  js-sticky-offset">
+						<nav class="collapse  navbar-collapse" role="navigation" aria-label="<?php _e( 'Main Menu', 'cargopress-pt' ); ?>" id="cargopress-navbar-collapse">
+							<?php
+							if ( has_nav_menu( 'main-menu-2' ) ) {
+								wp_nav_menu( array(
+									'theme_location' => 'main-menu-2',
+									'container'      => false,
+									'menu_class'     => 'main-navigation  js-main-nav  js-dropdown',
+									'walker'         => new Aria_Walker_Nav_Menu(),
+									'items_wrap'     => '<ul id="%1$s" class="%2$s" role="menubar">%3$s</ul>',
+								) );
+							}
+							?>
+						</nav>
+					</div>
 				</div>
-				<?php if ( is_active_sidebar( 'navigation-widgets' ) ) : ?>
-				<div class="header__navigation-widgets">
-					<?php dynamic_sidebar( 'navigation-widgets' ); ?>
-				</div>
-				<?php endif; ?>
 			</header>
 		</div>
 	</div>

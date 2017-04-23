@@ -91,16 +91,20 @@ class CargoPress_Customize_Frontent {
 					width: %1$dpx;
 				}
 				.header__widgets {
-					width: calc(55%% - %1$dpx);
+					/*width: calc(55%% - %1$dpx);*/
+					width:100%;
 				}
 				.header__navigation {
-					width: %3$s%%;
+					/*width: %3$s%%;*/
+					width:100%;
 				}
 			}
 			@media (min-width: 1200px) {
 				.header__navigation {
-					width: calc(%4$s%% - %2$dpx);
-					margin-left: %2$dpx;
+					/* width: calc(%4$s%% - %2$dpx);
+					margin-left: %2$dpx;*/
+					width:100%;
+					margin-left: 0;
 				}
 			}',
 			absint( get_theme_mod( 'header_logo_width', 270 ) ),

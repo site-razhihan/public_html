@@ -91,6 +91,8 @@ if ( ! function_exists( 'cargopress_theme_setup' ) ) {
 		// Menus
 		add_theme_support( 'menus' );
 		register_nav_menu( 'main-menu', _x( 'Main Menu', 'backend', 'cargopress-pt' ) );
+		register_nav_menu( 'main-menu-1', _x( 'Main Menu 1', 'backend', 'cargopress-pt' ) );
+		register_nav_menu( 'main-menu-2', _x( 'Main Menu 2', 'backend', 'cargopress-pt' ) );
 		register_nav_menu( 'top-bar-menu', _x( 'Top Bar Menu', 'backend', 'cargopress-pt' ) );
 
 		// Add theme support for Semantic Markup
