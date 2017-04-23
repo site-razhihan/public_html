@@ -255,3 +255,14 @@ if ( is_admin() ) {
 		locate_template( $file . '.php' , true, true );
 	}
 }
+
+
+
+// правильный способ подключить стили и скрипты
+
+add_action('wp_print_styles', 'theme_name_scripts'); // можно использовать этот хук он более поздний
+function theme_name_scripts() {
+	wp_enqueue_style( 'rajihan', get_template_directory_uri().'/rajihan.css' );
+	wp_enqueue_style( 'rasul', get_template_directory_uri().'/rasul.css'  );
+
+}

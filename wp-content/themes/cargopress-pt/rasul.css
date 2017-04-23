@@ -1,0 +1,10 @@
+@media (min-width: 1200px) { 
+  .container { width: 1110px; } 
+  .address__widgets{
+    width: 45%;
+  }
+}
+
+.header__widgets, .header__logo, .header__container::before, .header__container::after, .header__logo::after {
+    background-color: transparent;
+}

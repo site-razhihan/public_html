@@ -91,7 +91,7 @@ class CargoPress_Customize_Frontent {
 					width: %1$dpx;
 				}
 				.header__widgets {
-					width: calc(100%% - %1$dpx);
+					width: calc(55%% - %1$dpx);
 				}
 				.header__navigation {
 					width: %3$s%%;

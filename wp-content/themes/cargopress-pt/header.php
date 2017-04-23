@@ -48,6 +48,13 @@
 	<div class="header__container">
 		<div class="container">
 			<header class="header" role="banner">
+				<div class="address__widgets">
+					<?php
+						if ( is_active_sidebar( 'address-widgets' ) ) {
+							dynamic_sidebar( 'address-widgets' );
+						}
+					?>
+				</div>
 				<div class="header__logo">
 					<a href="<?php echo esc_url( home_url() ); ?>">
 					<?php
@@ -89,7 +96,7 @@
 						}
 						?>
 					</nav>
-				</div>
+				</div>			
 				<div class="header__widgets">
 				<?php
 					if ( is_active_sidebar( 'header-widgets' ) ) {

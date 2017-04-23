@@ -61,6 +61,17 @@ function cargopress_sidebars() {
 		)
 	);
 
+	// Address
+	register_sidebar(
+		array(
+			'name'          => _x( 'Address', 'backend', 'cargopress-pt' ),
+			'id'            => 'address-widgets',
+			'description'   => _x( 'Address studio.', 'backend', 'cargopress-pt' ),
+			'before_widget' => '<div class="widget  %2$s">',
+			'after_widget'  => '</div>',
+		)
+	);
+
 	// Navigation
 	register_sidebar(
 		array(
