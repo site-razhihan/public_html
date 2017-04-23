@@ -72,7 +72,7 @@ audio:not([controls]) { display: none; height: 0; }
 
 a { background-color: transparent; }
 
-a:active, a:hover { outline: 0; }
+a:active, a:hover, li:active, li:hover { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
 

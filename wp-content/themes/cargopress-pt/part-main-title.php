@@ -32,7 +32,7 @@ $style_array['background-color'] = get_field( 'background_color', $bg_id );
 $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 
 ?>
-
+<?php if(!is_front_page()) : ?>
 <div class="main-title" style="<?php echo esc_attr( $style_attr ); ?>">
 	<div class="container">
 		<?php
@@ -71,3 +71,6 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 		<?php endif; ?>
 	</div>
 </div>
+<?php else: ?>
+	<?php layerslider(2) ?>
+<?php endif; ?>

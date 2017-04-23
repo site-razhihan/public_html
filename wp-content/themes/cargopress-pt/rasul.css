@@ -20,7 +20,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
       font-weight: bold;
       letter-spacing: 1.5px;
       display: inline-block;
-      text-shadow: 0px 0px 1px red;
+      text-shadow: 0px 0px 1px #e31e24;
       line-height: 1;
       padding-top: 5px;
   }
@@ -46,7 +46,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
   span.phone-line span {
     color: #ff181f;
     font-weight: bold;
-    text-shadow: 0px 0px 1px red;
+    text-shadow: 0px 0px 1px #e31e24;
   }
   
   .phones-block .phone-line:before {
@@ -90,11 +90,12 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 @media (min-width: 992px) { .main-navigation > li > a::before { display: none; } }
 @media (min-width: 992px) { 
   .main-navigation > .current-menu-item > a::after { display: none; } 
-  .main-navigation > .current-menu-item > a { color: #e31e24; text-shadow: 0px 0px 1px red;} 
+  .main-navigation > .current-menu-item > a { color: #e31e24; text-shadow: 0px 0px 1px #e31e24;} 
+
 }
 @media (min-width: 992px) { 
   .main-navigation > li:hover > a::after, .main-navigation > li:focus > a::after, .main-navigation > li[aria-expanded="true"] > a::after { display: none; } 
-  .main-navigation > li:hover > a, .main-navigation > li:focus > a, .main-navigation > li[aria-expanded="true"] > a { color: #e31e24; text-shadow: 0px 0px 1px red;} 
+  .main-navigation > li:hover > a, .main-navigation > li:focus > a, .main-navigation > li[aria-expanded="true"] > a { color: #e31e24; text-shadow: 0px 0px 1px #e31e24;} 
 }
 @media (min-width: 992px) { 
   .social-icons__link {  margin-left: 0px; margin-right: 0; background-color: transparent; color: #ffffff;} 
@@ -102,6 +103,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 @media (min-width: 992px) { 
   .header__container { 
       background: url(assets/images/top-fon.jpg) repeat-x top center;
+      z-index: 999;
   }
 }
 
@@ -112,12 +114,13 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 .social-icons__link { width: 40px; height: 0;}
 
 .menu-item-has-children {
-    padding: 12px 20px 0px 1px;
+    padding: 12px 20px 0px 5px;
 }
 
-@media (min-width: 992px) { .social-icons__link:hover { background-color: #ffffff; color: red; } }
+@media (min-width: 992px) { .social-icons__link:hover { background-color: #ffffff; color: #e31e24; } }
 @media (min-width: 992px) { .main-navigation .menu-item-has-children > a { padding: 12px 0 0; } }
-@media (min-width: 992px) { .main-navigation .menu-item-has-children::after {
+@media (min-width: 992px) { 
+  .main-navigation .menu-item-has-children::after {
     position: absolute;
     content: "\f0d7";
     font-family: "FontAwesome";
@@ -125,19 +128,26 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
     right: 3px!important;
     top: 12px;
     color: #ffffff;
-} }
+  } 
+  .main-navigation .current-menu-item::after {
+    color: #e31e24;
+  }
+
+}
 @media (min-width: 992px) { .main-navigation .menu-item-has-children:hover > a { 
     color: #1f425d;
     background-color: #000;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    padding: 2px 5px 0px;
+    padding: 2px 0 0;
     margin: 0;
     color: #ff181f;
-    text-shadow: 0px 0px 1px red;
+    text-shadow: 0px 0px 1px #e31e24;
   } }
 .main-navigation .menu-item-has-children:hover::after { color: #ff181f; top: 2px; }
 @media (min-width: 1200px) { .header__logo::after {
   display: none;
   } }
 @media (min-width: 992px) { .main-navigation > li { padding-top:0; } }
+.main-navigation .sub-menu > li > a { display: block; font-size: 16px; font-weight: bold; padding: 4px 20px; background-color: #000; color: #fff; letter-spacing: 2px;}
+.main-navigation .sub-menu > li > a:hover {text-shadow: 0px 0px 1px #e31e24;}
