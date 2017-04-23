@@ -56,6 +56,10 @@ Text domain: cargopress-pt
   font-family: BebasNeueLight; /* Имя шрифта */
   src: url(assets/fonts/bebas/ttf/BebasNeueLight.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: BebasNeueBold; /* Имя шрифта */
+  src: url(assets/fonts/bebas/ttf/BebasNeueBold.ttf); /* Путь к файлу со шрифтом */
+}
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html { font-family: 'BebasNeueLight', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }

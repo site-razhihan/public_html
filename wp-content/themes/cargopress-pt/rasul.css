@@ -153,6 +153,28 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 .main-navigation .sub-menu > li > a:hover {text-shadow: 0px 0px 1px #e31e24;}
 .main-navigation > li:hover > .sub-menu, .main-navigation > li:focus > .sub-menu, .main-navigation > li[aria-expanded="true"] > .sub-menu { left: -20px; }
 .slider-block{
-  background: url(assets/images/fon1.jpg) no-repeat top center;
-  background-size: 100%;
+  background-image: url(assets/images/podloka-bottom.png), url(assets/images/podloka-top.png), url(assets/images/fon1.jpg);
+  background-repeat:  repeat-x, repeat-x, no-repeat;
+  background-position: bottom center, top center, top center;
+  background-size:  auto, auto, 100%;
+  margin-top: -150px;
+}
+.ls-v5 .ls-playvideo, .ls-v5 .ls-nav-sides, .ls-v5 .ls-bottom-slidebuttons a, .ls-v5 .ls-nav-prev, .ls-v5 .ls-nav-next, .ls-v5 .ls-nav-start, .ls-v5 .ls-nav-stop, .ls-v5 .ls-fullscreen, .ls-v5 .ls-loading-container {
+    background-image: url(assets/images/skin.png)!important;
+}
+
+.ls-v5 .ls-nav-prev, .ls-v5 .ls-nav-next {
+    width: 70px!important;
+    height: 65px!important;
+    z-index: 10000;
+    top: 50%;
+    margin-top: -25px;
+    position: absolute;
+}
+
+.ls-v5 .ls-nav-next {
+    background-position: -122px -1px!important;
+}
+.ls-v5 .ls-nav-next:hover {
+  background-position: -122px -76px!important;
 }
