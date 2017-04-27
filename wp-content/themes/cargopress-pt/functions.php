@@ -268,3 +268,61 @@ function theme_name_scripts() {
 	wp_enqueue_style( 'rasul', get_template_directory_uri().'/rasul.css'  );
 
 }
+
+function servises_func( $atts ){
+    $args = array('post_type' => 'servises', 'order' => 'ASC'); 
+    $query = new WP_Query( $args );
+    $col = $query->post_count;
+    $num = 0;
+    $stroka = 1;
+    $cols_line = '';
+	$begin = '<div class="row uslugi-block">';
+
+    while ( $query->have_posts() ) {
+    	$tek_block = $content = '';
+
+    	if($num>=3){
+    		$num = 1;
+    		$stroka++;
+    	}else{
+    		$num++;
+    	}
+        $query->the_post();                 
+        $link_servises = get_post_meta( get_the_id(), 'link-servises', true );
+        $text_right = get_post_meta( get_the_id(), 'position_text', true );
+        $image_c = get_post_meta( get_the_id(), 'image_back', true ); 
+        
+        $tek_block .= "<div class='col-sm-6 prices line-".$stroka." row-".$num."' data-num='".$num."' data-stroka='".$stroka."'>";
+
+        $tek_block .= "<div class='ramka'><a href='".$link_servises."' class='block_vn' id='col_id_".get_the_id()."'>";
+        $tek_block .= "<div class='col-sm-12'>".get_the_title()."</div>";
+
+        if(!empty($text_right)){
+        	$tek_block .= "<div class='col-sm-8'><div class='servises-contents'>". get_the_content() ."</div></div>";
+        	$tek_block .= "<div class='col-sm-4'><div class='uslugi-icon' style='background: url(".$image_c['guid'].") no-repeat top center;'></div></div>";
+        }else{
+        	$tek_block .= "<div class='col-sm-4'><div class='uslugi-icon' style='background: url(".$image_c['guid'].") no-repeat top center;'></div></div>";
+        	$tek_block .= "<div class='col-sm-8'><div class='servises-contents'>". get_the_content() ."</div></div>";
+        }
+
+        $tek_block .= "</a></div></div>";
+        $cols_blocks[] = $tek_block;
+    }
+
+    if (($col % 2) == 1){
+      	$cols = '<div class="col-sm-4"></div>';
+        $last_col = array_pop($cols_blocks);
+        $cols_blocks[] = $cols;
+        $cols_blocks[] = $last_col;
+        $cols_blocks[] = $cols;
+    }
+    wp_reset_postdata();
+    wp_reset_query();
+    foreach ($cols_blocks as $value) {
+    	$cols_line .=  $value;
+    }
+	$cols_line =  $begin.$cols_line."</div>";
+    return $cols_line;
+
+}
+add_shortcode('servises', 'servises_func');

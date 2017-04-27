@@ -29,6 +29,12 @@ get_template_part( 'part-breadcrumbs' );
 
 				<article <?php post_class( 'clearfix' ); ?>>
 					<div class="hentry__content">
+						<?php 
+						    $shortcode = get_post_meta($post->ID, 'shortcode-servises', true);
+						    echo !empty($shortcode) ?  do_shortcode($shortcode) : ''; 
+					    ?>
+					</div>
+					<div class="hentry__content">
 						<?php the_content(); ?>
 					</div>
 					<?php
