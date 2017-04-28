@@ -1,4 +1,4 @@
-body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #aaaaaa; background-color: #fff; }
+body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; color: #fff; background-color: #fff; }
 @media (min-width: 1200px) { 
   .container { width: 1140px; } 
   .address__widgets{ width: 100%; min-height: 85px;}
@@ -203,7 +203,7 @@ a:hover {
 }
 ul.servises-lust li {
   color: #fff;
-  font-family: roboto;
+  font-family: Roboto-Thin;
   line-height: 1.8;
   list-style: none;
   font-size: 14px;
@@ -218,7 +218,7 @@ font-size: 16px;
 }
 ul.servises-lust li {
   color: #fff;
-  font-family: roboto;
+  font-family: Roboto-Thin;
   line-height: 1.8;
   list-style: none;
   font-size: 14px;
@@ -242,10 +242,10 @@ ul.servises-lust {
 .sidebar__headings { 
   font-size: 18px;
   color: #fff; 
-  margin-top: 0; 
-  margin-bottom: 10px; 
+  margin-top: 18px; 
+  margin-bottom: 20px;
   font-family: BebasNeue Thin;
-  padding: 0px 12px;
+  padding: 0px 13px;
 }
 body.woocommerce-page .widget_product_categories ul > li > a { 
   font-size: 14px; 
@@ -253,11 +253,15 @@ body.woocommerce-page .widget_product_categories ul > li > a {
   display: block; 
   background-color: #000; 
   color: #fff; 
-  font-family: roboto;
-  font-weight: bold; 
+  font-family: Roboto-Thin, FontAwesome;;
+  font-weight: 100; 
   border-radius: 2px; 
   padding: 4px 30px; 
   text-transform: none; 
+  margin-bottom: -10px;
+}
+body.woocommerce-page .widget_product_categories ul > li > a:hover{
+  color:#e31e24;
 }
 body.woocommerce-page .widget_product_categories ul > li > a:hover { 
   background: #000; 
@@ -288,18 +292,18 @@ body.woocommerce-page .widget_product_search .search-field {
   height: 23px; 
   border-radius: 0px; 
   margin-bottom: 10px; 
-  font-family: roboto;
+  font-family: Roboto-Thin;
 }
 body.woocommerce-page .widget_product_search .search-field + input { 
   width: 85px; 
   height: 25px; 
-  background-color: #260506; 
+  background-color: #000; 
   border: 1px solid #e31e24; 
   color: #ffffff; 
   font-weight: normal; 
   border-radius: 0px; 
   transition: all 100ms ease-out; 
-  font-family: roboto; 
+  font-family: Roboto-Thin; 
 }
 body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle, body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range { 
   background: #ff676b; 
@@ -316,14 +320,21 @@ body.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-cont
   float:left;
   width: 130px;
   height: 25px;
-  background-color: #250506; 
+  background-color: #000000;
   padding: 0px 0px;
   margin-left: 13px;
+  font-family: Roboto-Thin;
+  text-transform: none;
+  font-weight: 100;
+  color: #fff;
+}
+.woocommerce .widget_price_filter .price_slider_amount .button:hover{
+  background: #75151a;
 }
 body.woocommerce-page a.button, body.woocommerce-page input.button, body.woocommerce-page input.button.alt, body.woocommerce-page button.button { 
   display: inline-block; 
   text-transform: uppercase; 
-  font-family: roboto; 
+  font-family: Roboto-Thin; 
   font-size: 14px; 
   padding: 15px 20px;
   text-shadow: none; 
@@ -333,28 +344,34 @@ body.woocommerce-page a.button, body.woocommerce-page input.button, body.woocomm
   border: 1px solid #e31e24;
 }
 body.woocommerce-page .widget_product_search .search-field + input:hover, body.woocommerce-page .widget_product_search .search-field + input:focus { 
-  background: #2b0607; 
+  background: #75151a; 
   outline: none; 
 }
 input#woocommerce-product-search-field-0:hover {
   background: #000;
 }
 body.woocommerce-page .widget_shopping_cart_content .buttons .wc-forward { 
-  width: 85%;
+  width: 88%;
+  height: 25px;
   margin-bottom: 10px;
   margin-left: 13px;
-  background-color: #2b0607;
+  background-color: #000;
   border: 1px solid #e31e24;
+  padding: 5px;
+  font-size: 14px;
+  text-transform: none;
+  font-family: BebasNeue Thin;
+  text-transform: none;
 }
 body.woocommerce-page .widget_shopping_cart_content .buttons .wc-forward:hover { 
-  background-color: #2b0607; 
+  background-color: #75151a; 
   color: #fff; 
   border: 1px solid #e31e24;
 }
 body.woocommerce-page .woocommerce-ordering .orderby, .woocommerce .woocommerce-ordering .orderby { 
   border: 1px solid #e31e24; 
   background-color: #2b0607; 
-  padding: 10px; 
+  padding: 0px; 
   width: 158px;
   height: 25px;
   color: #fff;
@@ -364,11 +381,111 @@ body.woocommerce-page .woocommerce-result-count {
   color: #fff; 
   letter-spacing: 0; 
   margin-bottom: 0; 
-  font-family: roboto;
+  font-family: Roboto-Thin;
 }
 
-
-
-.page-id-514 a{
+.archive .product.type-product.status-publish:hover {
+    box-shadow: 0px 0px 6px 4px #e31e24;
+    border: 2px solid #e31e24;
+}
+body.woocommerce-page ul.products li.product{
+ box-shadow: none; 
+ color: #4ab9cf;  
+ border: 2px solid #3a4255;
+}
+body.woocommerce-page ul.products li.product a img{
+  border-bottom: 2px solid #3a4255;
+}
+body.woocommerce-page ul.products li.product, .woocommerce ul.products li.product {
+  width: 30.78%;
+}
+body.woocommerce-page ul.products li.product a:hover img{
+box-shadow: none;
+border-bottom: 2px solid #e31e24;
+}
+.woocommerce ul.products li.product .woocommerce-loop-category__title,.woocommerce ul.products li.product .woocommerce-loop-product__title,.woocommerce ul.products li.product h3{
+  padding:0 0;
+  margin:0;
+  font-size:1em;
+  text-align:center;
+  color: #fff;
+}
+body.woocommerce-page ul.products li.product .price, .woocommerce ul.products li.product .price{
   color:red;
-}    
+  text-align:center;
+  font-family: Roboto-Thin;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 8px;
+}
+body.woocommerce-page ul.products li.product .button, .woocommerce ul.products li.product .button { 
+  margin-top: 0; 
+  width: 150px;
+  height: 25px;
+  font-family: Bebas neue;
+  font-size: 1em;
+  margin-left: 50px;
+  padding: 5px;
+  margin-bottom: 9px;
+}
+.woocommerce ul.products li.product .button:hover { 
+background: #75151a;
+color: #fff;
+}
+body.woocommerce-page ul.product_list_widget a { 
+  color: #fff;
+  margin-left: 13px;
+  font-family: Roboto-Thin; 
+}
+body.woocommerce-page ul.product_list_widget a:hover {
+  color: #e31e24;
+}
+body.woocommerce-page .quantity { 
+  width: 19%; 
+  border-radius: 2px;
+  margin-left: 13px;
+  font-family: Roboto-Thin; 
+}
+.woocommerce ul.cart_list li,.woocommerce ul.product_list_widget li{
+  padding:0px 0;
+  margin:0;
+  list-style:none;
+}
+body.woocommerce-page ul.product_list_widget li img { 
+  box-shadow: none; 
+  border-radius: 2px; 
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+  margin-right: 18px;
+}
+.woocommerce.widget_shopping_cart .total { 
+  border-top: 0px solid rgba(0, 0, 0, 0.1);
+  padding-top: 0px;
+  margin-left: 13px;
+  font-family: Roboto-Thin;
+}
+body.woocommerce-page nav.woocommerce-pagination ul li span.current{
+  background-color: #000;
+  border: 1px solid #e31e24;
+}
+body.woocommerce-page nav.woocommerce-pagination ul li a:hover { 
+  background-color: #75151a;  
+  color: #fff
+}
+
+body.woocommerce-page nav.woocommerce-pagination ul li .next::after { 
+  position: absolute; content: ""; 
+  left: calc(50% - 3px); 
+  top: calc(50% - 6px); 
+  color: #aaaaaa; 
+  font-family: "FontAwesome"; 
+}
+body.woocommerce-page nav.woocommerce-pagination ul li .page-numbers { 
+  width: 45px;
+  padding: 15px 0 16px 0;
+  font-weight: bold;
+  background: #000;
+  border: 1px solid #3a4255; 
+}
+

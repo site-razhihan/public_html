@@ -35,6 +35,21 @@ get_template_part( 'part-breadcrumbs' );
 					    ?>
 					</div>
 					<div class="hentry__content">
+						<?php if ( is_front_page()) : ?>
+						<div class="header__navigation  js-sticky-offset">
+									<?php
+									if ( has_nav_menu( 'we_do' ) ) {
+										wp_nav_menu( array(
+											'theme_location' => 'we_do',
+											'container'      => false,
+											'menu_class'     => 'we_do',
+											'walker'         => new Aria_Walker_Nav_Menu(),
+											'items_wrap'     => '<ul id="%1$s" class="%2$s" role="menubar">%3$s</ul>',
+										) );
+									}
+									?>
+						</div>
+						<?php endif ?>
 						<?php the_content(); ?>
 					</div>
 					<?php
