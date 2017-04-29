@@ -492,6 +492,99 @@ body.woocommerce-page nav.woocommerce-pagination ul li .page-numbers {
   background: #000;
   border: 1px solid #3a4255; 
 }
+body.woocommerce-page .entry-summary .entry-title { 
+  font-size: 18px;
+  text-transform: none;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: roboto;
+}
+body.woocommerce-page div.product p.price { 
+  color: #75151a; 
+  font-size: 18px; 
+  font-weight: 900; 
+  font-family: roboto; 
+  margin-bottom: 20px; 
+}
+body.woocommerce-page .quantity .qty { 
+  width: 60%;
+  height: 35px;
+  border: 1px solid #ff0000;
+  background-color: #000000;
+  border-radius: 0px;
+  color: #ffffff;
+  font-family: roboto;
+  padding: 0 0 0 10px;
+}
+body.woocommerce-page div.product form.cart .button.single_add_to_cart_button { 
+  width: 60%;
+  height: 35px;
+  margin-left: 0%;
+  margin-right: 0px;
+  background: #000;
+  color: #fff;
+  font-family: roboto;
+  padding: 0px;
+  border-radius: 0px; 
+}
+.product_meta .posted_in a {
+  color: #75151a;
+}
+.product_meta .posted_in a:hover {
+  color: red;
+}
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
+  background-color: #000000;
+  border-top: 1px solid #544c4c;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #544c4c;
+  border-right: 1px solid #544c4c;
+  padding-bottom: 1px;
+}
+body.woocommerce-page div.product .woocommerce-tabs .panel { 
+  margin-top: -1px;
+  margin-bottom: 45px;
+  background: #000;
+  border: 1px solid #544c4c;
+  border-radius: 0;
+  position: relative;
+}
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs { 
+  background-color: #000;
+  border-radius: 0; 
+  padding: 0;
+  margin-bottom: 0; 
+}
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li { 
+  border-radius: 0;
+  background: #000000;
+  border: 1px solid #3a4669;
+  box-shadow: 0 0 0 0;
+}
+#tab-title-reviews{
+  margin-left: 40px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{
+  border:1px solid #d3ced2;
+  background-color:#ebe9eb;
+  display:inline-block;
+  position:relative;
+  z-index:0;
+  border-radius:4px 4px 0 0;
+  margin:0;
+  padding:0;
+}
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a { 
+  text-shadow: none; 
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; 
+  text-transform: uppercase; 
+  color: #aaaaaa; 
+  padding: 17px 15px; 
+}
+
+
+
+
 
 ul#menu-we_do {
     display: inline-block;
