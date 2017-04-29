@@ -117,6 +117,10 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
     padding: 12px 20px 0px 5px;
 }
 
+#menu-we_do .menu-item-has-children {
+    padding: 0;
+}
+
 @media (min-width: 992px) { .social-icons__link:hover { background-color: #ffffff; color: #e31e24; } }
 @media (min-width: 992px) { .main-navigation .menu-item-has-children > a { padding: 12px 0 0; } }
 @media (min-width: 992px) { 
@@ -489,3 +493,188 @@ body.woocommerce-page nav.woocommerce-pagination ul li .page-numbers {
   border: 1px solid #3a4255; 
 }
 
+ul#menu-we_do {
+    display: inline-block;
+    min-width: 100%;
+    padding: 0;
+    margin: 0px;
+}
+
+@media (min-width: 992px) {
+ul#menu-we_do {
+    display: inline-block;
+    min-width: 1261px;
+    padding: 0;
+    margin-left: -70px;
+}
+}
+
+ul#menu-we_do > li{
+    list-style: none;
+    width: 11%;
+    text-align: center;
+    float: left;
+    height: 164px;
+    border: 1px solid red;
+    display: inline-block;
+    position: relative;
+    outline: none !important;
+}
+
+ul#menu-we_do > li > a{
+  font-size: 11px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+ul#menu-we_do > li:before{
+    content: "";
+    margin: 0 0 10px 0;
+    height: 100px;
+}
+
+ul#menu-we_do > li:after{
+    content: "";
+    margin: 3px 0 10px 0;
+    padding: 11px 6px;
+    height: 6px;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/niz.png) no-repeat center;
+    background-color: #53191b;
+    display: inline-block;
+}
+ul#menu-we_do > li:nth-child(odd){
+  background-color: #252525;
+}
+ul#menu-we_do > li:nth-child(even){
+  background-color: #111111;
+}
+
+ul#menu-we_do > li:nth-child(1):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/8.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(2):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/7.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(3):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/1.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(4):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/2.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(5):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/3.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(6):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/9.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(7):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/4.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(8):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/5.png) no-repeat center bottom;
+}
+ul#menu-we_do > li:nth-child(9):before{
+    float: left;
+    width: 100%;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/6.png) no-repeat center bottom;
+}
+
+ul#menu-we_do .sub-menu{
+  display: none;
+}
+ul#menu-we_do .line_open .sub-menu {
+  display: block;
+  
+}
+
+ul#menu-we_do .line_open{
+  box-shadow: 0px 0px 10px 2px #fff; 
+  /*position: inherit;*/ 
+}
+
+
+  ul#menu-we_do .sub-menu {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    left: 0;
+    margin-top: 40px;
+    padding-left: 0;
+    background: #292121;
+  }
+
+@media (min-width: 992px) {
+  ul#menu-we_do .sub-menu {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    left: 0;
+    margin-top: 55px;
+    margin-left: -70px;
+    background: #292121;
+    padding-left: 0;
+    min-width: 1251px;
+  }
+}
+
+ul#menu-we_do .sub-menu li{
+  float: left;
+  padding: 5px 20px;
+}
+
+ul#menu-we_do > li:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #fff;
+  position: relative;
+  z-index: 1000;
+}
+
+ul#menu-we_do .sub-menu li > a{
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration:underline;
+}
+
+/*.select-icon {
+    position: absolute;
+    width: 21px;
+    height: 12px;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/icon.png) no-repeat;
+    margin-top: 180px;
+}
+*/
+ul#menu-we_do  li.line_open > a:before{
+    content: "";
+    margin-top: 64px;
+    margin-left: 23px;
+    position: absolute;
+    padding: 5px;
+    width: 21px;
+    height: 12px;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/we_do/icon.png) no-repeat center;
+    text-align: center;
+}
