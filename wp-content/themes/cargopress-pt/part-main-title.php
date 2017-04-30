@@ -41,6 +41,10 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 		echo 'background:url('.$background_head["guid"].') no-repeat; 
 		background-size: 100%; 
 		background-position: bottom center;';
+	} else{
+		echo 'background:url(/wp-content/uploads/2017/04/fon-head.png) no-repeat; 
+		background-size: 100%; 
+		background-position: bottom center;';
 	}
 
 ?> ">
@@ -76,10 +80,6 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 		?>
 
 		<?php printf( '<%1$s class="main-title__primary">%2$s</%1$s>', tag_escape( $main_tag ), esc_html( $title ) ); ?>
-
-		<?php if ( strlen( $subtitle ) ): ?>
-			<h3 class="main-title__secondary"><?php echo esc_html( $subtitle ); ?></h3>
-		<?php endif; ?>
 		<img src="/wp-content/uploads/2017/04/bottom-line.png">
 	</div>
 </div>

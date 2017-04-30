@@ -54,7 +54,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
     float: left;
     width: 21px;
     height: 21px;
-    margin: 5px 10px 0 0;
+    margin: 0px 10px 0 0;
     background: url(assets/images/phone.png) no-repeat;
   }
 
@@ -107,7 +107,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
   }
 }
 
-.phones-block span.phone-line:nth-child(1) { padding-bottom: 5px; line-height: 1; display: inline-block; clear: both; font-size: 22px; font-weight: bold; color: #fff; letter-spacing: 1px;}
+.phones-block span.phone-line:nth-child(1) { padding-bottom: 10px; line-height: 1; display: inline-block; clear: both; font-size: 22px; font-weight: bold; color: #fff; letter-spacing: 1px;}
 .phones-block span.phone-line:nth-child(2) { line-height: 1; display: inline-block; clear: both; font-size: 22px; font-weight: bold; color: #fff; letter-spacing: 1.5px;}
 .header__widgets, .header__logo, .header__container::before, .header__container::after, .header__logo::after { background-color: transparent; }
 .main-navigation > li > a { font-size: 22px; letter-spacing: 2.5px; }
