@@ -170,8 +170,8 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 
 .footer-top-vopros{
     background: url(/wp-content/themes/cargopress-pt/assets/images/fon-footer-2.png) no-repeat;
-    padding: 148px 0;
     background-position: top right;
+    padding: 80px 0;
 }
 
 .est-vopr{
@@ -180,6 +180,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	width: 100%;
     display: inline-block;
     font-family: Roboto;
+    line-height: 1;
 }
 .spr-vopr{
     font-family: Roboto;
@@ -187,12 +188,15 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	color:#fff;
 	width: 100%;
     display: inline-block;
+    margin-bottom: 25px;
 }
 
 .contact-vopr span{
 	color:#fff;
 	font-size: 24px;
     font-family: Roboto;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .contact-vopr span.vopr-tel:before{
