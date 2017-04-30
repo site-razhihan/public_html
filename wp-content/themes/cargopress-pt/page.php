@@ -56,10 +56,6 @@ get_template_part( 'part-breadcrumbs' );
 						</div>
 						<?php endif ?>
 
-						<?php if ( is_front_page()) : ?>
-							<?php echo do_shortcode('[logoshowcase]'); ?>
-						<?php endif ?>
-
 						<?php the_content(); ?>
 					</div>
 					<?php
