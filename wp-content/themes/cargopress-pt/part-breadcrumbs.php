@@ -1,5 +1,5 @@
 <?php if ( function_exists( 'bcn_display' ) && !is_front_page()) { ?>
-	<div class="breadcrumbs 5">
+	<div class="breadcrumbs">
 		<div class="container">
 			<?php bcn_display(); ?>
 		</div>

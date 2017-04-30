@@ -33,9 +33,20 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 
 ?>
 <?php if(!is_front_page()) : ?>
-<div class="main-title" style="<?php echo esc_attr( $style_attr ); ?>">
+<?php $background_head = get_post_meta($post->ID, 'background-head', true); ?>
+<div class="main-title" style="
+<?php 
+	echo esc_attr( $style_attr ); 
+	if(!empty($background_head)){
+		echo 'background:url('.$background_head["guid"].') no-repeat; 
+		background-size: 100%; 
+		background-position: bottom center;';
+	}
+
+?> ">
 	<div class="container">
 		<?php
+
 		$main_tag = 'h1';
 		$subtitle = false;
 
@@ -69,6 +80,7 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 		<?php if ( strlen( $subtitle ) ): ?>
 			<h3 class="main-title__secondary"><?php echo esc_html( $subtitle ); ?></h3>
 		<?php endif; ?>
+		<img src="/wp-content/uploads/2017/04/bottom-line.png">
 	</div>
 </div>
 <?php else: ?>
