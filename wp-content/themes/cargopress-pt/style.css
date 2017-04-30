@@ -61,7 +61,7 @@ Text domain: cargopress-pt
   src: url(assets/fonts/bebas/ttf/BebasNeueBold.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
-  font-family: BebasNeue Thin; /* Имя шрифта */
+  font-family: BebasNeueThin; /* Имя шрифта */
   src: url(assets/fonts/BebasNeue Thin.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
