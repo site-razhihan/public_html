@@ -402,10 +402,11 @@ body.woocommerce-page ul.products li.product{
  border: 2px solid #3a4255;
 }
 body.woocommerce-page ul.products li.product:hover{
- box-shadow: none; 
- color: #4ab9cf;  
- border: 2px solid #3a4255;
- background: #54171c;
+  box-shadow: none;
+  color: #4ab9cf;
+  background: #54171c;
+  border: 2px solid #e31e24;
+  box-shadow: 0px 0px 14px 1px #e31e24;
 }
 body.woocommerce-page ul.products li.product a img{
   border-bottom: 2px solid #3a4255;
@@ -578,6 +579,7 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li {
   background: #000000;
   border: 1px solid #3a4669;
   box-shadow: 0 0 0 0;
+  border-bottom-width: 0;
 }
 #tab-title-reviews{
   margin-left: 40px;
@@ -853,4 +855,127 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a {
   margin-left: 10px;
   font-weight: normal;
 }
-#tab-description p{}
+#tab-description p{
+  font-family: "Roboto-Thin";
+  font-size: 19px;
+  margin-left: 10px;
+}
+body.woocommerce-page #reviews #comments h2 {
+  font-size: 22px;
+  font-family: BebasNeueThin;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+p.woocommerce-noreviews {
+  font-family: "Roboto-Thin";
+  font-size: 19px;
+  margin-left: 10px;
+}
+body.woocommerce-page #reviews .comment-reply-title {
+    font-family: "Roboto-Thin";
+    font-size: 19px;
+    margin-left: 10px;
+}
+body.woocommerce-page .comment-form-rating label {
+    font-weight: normal;
+    font-family: "Roboto-Thin";
+    font-size: 19px;
+    margin-left: 10px;
+}
+body.woocommerce-page .comment-form-comment label {
+    font-weight: normal;
+    font-family: "Roboto-Thin";
+    font-size: 19px;
+}
+.woocommerce #review_form #respond p {
+    margin: 10px 10px 8px;
+}
+body.woocommerce-page p.stars a { 
+  color: #e31e24; 
+}
+body.woocommerce-page #review_form #respond input, body.woocommerce-page #review_form #respond textarea {
+  border: 1px solid #e31e24;
+  background-color: #000000;
+  padding: 8px;
+  color: #fff;
+  font-family: "Roboto-Thin";
+}
+body.woocommerce-page #review_form #respond textarea:focus {
+  background-color: #000;
+  outline: 0;
+  color: #fff;
+  font-family: "Roboto-Thin";
+  font-size: 18px;
+}
+body.woocommerce-page #review_form #respond input#submit:hover {
+  background-color: #75151a;
+}
+body.woocommerce-page #review_form #respond input#submit{
+  background: #000;
+  border: 1px solid #e31e24;
+  font-family: Roboto-Thin;
+  font-size: 19px;
+  padding: 0px 20px;
+  text-transform: none;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.woocommerce p.stars a {
+  position: relative;
+  height: 0em;
+  width: 1em;
+  text-indent: -999em;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 25px;
+}
+body.woocommerce-page .upsells.products h2, body.woocommerce-page .related h2 {
+  font-size: 24px;
+  margin-top: 0;
+  font-family: BebasNeueThin;
+  color: #fff;
+  font-weight: normal;
+}
+
+.hentry__content td{
+  width: 222px;
+  height: 40px;
+  font-size: 17px;
+}
+caption { 
+  padding-top: 8px; 
+  padding-bottom: 8px; 
+  color: #777777; 
+  text-align: left;
+  display: none;
+ }
+ .hentry__content .colortext{
+  color: #aa4547;
+  font-family: Roboto-Regular;
+  font-size: 19px;
+ }
+ .hentry__content .colortext_2{
+  color: #aa4547;
+  font-family: Roboto-Regular;
+  font-size: 19px;
+ }
+.siteorigin-widget-tinymce.textwidget p {
+  color: #fff;
+  font-family: Roboto-Thin;
+  font-size: 19px;
+  font-weight: 600;
+}
+.siteorigin-widget-tinymce.textwidget .family-text_2 {
+  font-size: 32px;
+  color: #e31e24;
+  font-family: BebasNeueLight;
+  font-weight: 600;
+}
+.siteorigin-widget-tinymce.textwidget .family-text_2 p {
+  font-size: 19px;
+  color: #fff;
+  font-family: Roboto-Thin;
+}
