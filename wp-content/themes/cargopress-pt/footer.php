@@ -8,7 +8,20 @@
 $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
-
+	<div class="footer-top-vopros">
+		<div class="container">
+			<div class="row">
+				<div class="hentry__content">
+					<span class="est-vopr">Если у вас остались вопросы...</span>
+					<span class="spr-vopr">Просто позвоните или напишите нам</span>
+					<div class="contact-vopr">
+						<span class="vopr-tel">+7(495)255-26-23</span>
+						<span class="vopr-mail">info@auto-exclusiv.ru</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer class="footer" role="contentinfo">
 		<?php if ( ! empty( $footer_widgets_layout ) && is_active_sidebar( 'footer-widgets' ) ) : ?>
 		<div class="footer-top">
