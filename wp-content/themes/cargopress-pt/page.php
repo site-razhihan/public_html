@@ -36,6 +36,10 @@ get_template_part( 'part-breadcrumbs' );
 					</div>
 					<div class="hentry__content">
 						<?php if ( is_front_page()) : ?>
+						<div class="head_block row">
+							<span class="head-text">Что мы делаем</span>
+							<span class="line-bottom"></span>
+						</div>
 						<div class="header__navigation  js-sticky-offset">
 							<?php
 							if ( has_nav_menu( 'we_do' ) ) {

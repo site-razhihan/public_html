@@ -607,7 +607,7 @@ ul#menu-we_do > li{
     width: 11%;
     text-align: center;
     float: left;
-    height: 164px;
+    height: 146px;
     border: 1px solid red;
     display: inline-block;
     position: relative;
@@ -626,7 +626,7 @@ ul#menu-we_do > li > a{
 ul#menu-we_do > li:before{
     content: "";
     margin: 0 0 10px 0;
-    height: 100px;
+    height: 83px;
 }
 
 ul#menu-we_do > li:after{
@@ -743,7 +743,7 @@ ul#menu-we_do > li:hover{
 }
 
 ul#menu-we_do .sub-menu li > a{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   display: inline-block;
   width: 100%;

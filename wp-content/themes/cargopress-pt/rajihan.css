@@ -1,0 +1,37 @@
+.head_block.row {
+	text-align: center;
+    margin-bottom: 73px;
+}
+
+.head_block.row span.head-text{
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	line-height: 1;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 5px;
+	letter-spacing: 2px;
+    width: 100%;
+}
+
+.line-bottom{
+    width: 125px;
+    height: 4px;
+    background: #e31e24;
+    display: inline-block;
+}
+@media (min-width: 1200px) { .footer-top::after { display:none;  width: calc(50% - 570px - 63px); } }
+@media (min-width: 1200px) { .footer-top::before { display:none; left: calc(50% - 570px - 85px); } }
+@media (min-width: 992px) { 
+	.footer-top {
+	background: url(/wp-content/themes/cargopress-pt/assets/images/fon-footer.png) no-repeat; 
+	padding: 55px 0; 
+	} 
+}
+@media (min-width: 1200px) { .footer::before { display:none; right: calc(50% - 570px - 85px); } }
+@media (min-width: 992px) { .footer::after { display:none; height: 30px; top: -30px; right: 0; width: calc(50% - 470px - 63px); } }
+
+.footer-top .textwidget .footer-logo-block {
+    text-align: center;
+}
