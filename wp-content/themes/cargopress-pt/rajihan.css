@@ -167,17 +167,25 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     margin-top: 4px;
 }
 
-.footer-top-vopros{
-    /*background: url(/wp-content/themes/cargopress-pt/assets/images/fon-footer-2.png) no-repeat;
-    background-position: top right;*/
-
-    padding: 80px 0;
-    background-color: #000000;
-    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom left, bottom right;
+@media (min-width: 1680px) {
+	.footer-top-vopros{
+	    padding: 80px 0;
+	    background-color: #000000;
+	    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
+	    background-repeat: no-repeat, no-repeat;
+	    background-position: bottom left, bottom right;
+	}
 }
 
+@media (min-width: 1200px) {
+	.footer-top-vopros{
+	    padding: 80px 0;
+	    background-color: #000000;
+	    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
+	    background-repeat: no-repeat, no-repeat;
+	    background-position: bottom left, bottom right;
+	}
+}
 
 .est-vopr{
 	font-size: 24px;
