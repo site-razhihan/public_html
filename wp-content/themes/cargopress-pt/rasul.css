@@ -511,6 +511,7 @@ body.woocommerce-page .entry-summary .entry-title {
   margin-bottom: 10px;
   color: #fff;
   font-family: roboto;
+  margin-left: 28%;
 }
 body.woocommerce-page div.product p.price { 
   color: #75151a; 
@@ -518,11 +519,12 @@ body.woocommerce-page div.product p.price {
   font-weight: 900; 
   font-family: roboto; 
   margin-bottom: 20px; 
+  margin-left: 36%;
 }
 body.woocommerce-page .quantity .qty { 
   width: 60%;
   height: 35px;
-  border: 1px solid #ff0000;
+  border: 1px solid #e31e24;
   background-color: #000000;
   border-radius: 0px;
   color: #ffffff;
@@ -536,7 +538,7 @@ body.woocommerce-page div.product form.cart .button.single_add_to_cart_button {
   margin-right: 0px;
   background: #000;
   color: #fff;
-  font-family: roboto;
+  font-family: BebasNeueLight;
   padding: 0px;
   border-radius: 0px; 
 }
