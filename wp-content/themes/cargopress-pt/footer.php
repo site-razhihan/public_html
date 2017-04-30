@@ -8,6 +8,12 @@
 $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
+	<div class="footer-logos">
+		<?php if ( is_front_page()) : ?>
+			<?php echo do_shortcode('[logoshowcase center_mode="true" slides_column="6" autoplay="false" dots="false" center_mode="false"]'); ?>
+		<?php endif ?>
+	</div>
+
 	<div class="footer-top-vopros">
 		<div class="container">
 			<div class="row">
