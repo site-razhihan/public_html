@@ -80,10 +80,6 @@ Text domain: cargopress-pt
   font-family: Roboto-Light; /* Имя шрифта */
   src: url(assets/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
 }
-@font-face {
-  font-family: BebasNeueLight; /* Имя шрифта */
-  src: url(assets/fonts/BebasNeueLight.ttf); /* Путь к файлу со шрифтом */
-}
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html { font-family: 'BebasNeueLight', sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }

@@ -506,24 +506,25 @@ body.woocommerce-page nav.woocommerce-pagination ul li .page-numbers {
   border: 1px solid #3a4255; 
 }
 body.woocommerce-page .entry-summary .entry-title { 
-  font-size: 18px;
+  font-size: 24px;
   text-transform: none;
   margin-bottom: 10px;
   color: #fff;
-  font-family: roboto;
+  font-family: Roboto-Thin;
   margin-left: 28%;
 }
 body.woocommerce-page div.product p.price { 
   color: #75151a; 
-  font-size: 18px; 
+  font-size: 22px; 
   font-weight: 900; 
-  font-family: roboto; 
+  font-family: Roboto-Thin; 
   margin-bottom: 20px; 
-  margin-left: 36%;
+  margin-left: 40%;
+  margin-top: 12px;
 }
 body.woocommerce-page .quantity .qty { 
-  width: 60%;
-  height: 35px;
+  width: 47%;
+  height: 30px;
   border: 1px solid #e31e24;
   background-color: #000000;
   border-radius: 0px;
@@ -532,15 +533,16 @@ body.woocommerce-page .quantity .qty {
   padding: 0 0 0 10px;
 }
 body.woocommerce-page div.product form.cart .button.single_add_to_cart_button { 
-  width: 60%;
-  height: 35px;
+  width: 40%;
+  height: 30px;
   margin-left: 0%;
   margin-right: 0px;
   background: #000;
   color: #fff;
-  font-family: BebasNeueLight;
+  font-family: "Roboto-Thin";
   padding: 0px;
   border-radius: 0px; 
+  text-transform: none;
 }
 .product_meta .posted_in a {
   color: #75151a;
@@ -568,7 +570,8 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs {
   background-color: #000;
   border-radius: 0; 
   padding: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
+  font-size: 19px; 
 }
 body.woocommerce-page div.product .woocommerce-tabs ul.tabs li { 
   border-radius: 0;
@@ -591,10 +594,10 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li {
 }
 body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a { 
   text-shadow: none; 
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; 
+  font-family: Roboto-Thin; 
   text-transform: uppercase; 
   color: #aaaaaa; 
-  padding: 17px 15px; 
+  padding: 4px 36px; 
 }
 
 
@@ -823,3 +826,31 @@ body.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-cont
 body.woocommerce-page .woocommerce-ordering .orderby:hover, .woocommerce .woocommerce-ordering .orderby {
   background: #75151a;
 }
+body.woocommerce-page div.product form.cart div.quantity {
+  margin-right: -20px;
+  margin-left: 25.5%;
+}
+body.woocommerce-page div.product form.cart {
+  margin: 22px 0;
+}
+body.woocommerce-page div.product form.cart .button.single_add_to_cart_button:hover {
+  background: #75151a;
+}
+input.input-text.qty.text:hover {
+    background: #75151a;
+}
+body.woocommerce-page .quantity .qty:focus {
+  background-color: #75151a;
+}
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a {
+  color: #ffffff;
+  font-family: Roboto-Thin;
+}
+#tab-description h2{
+  font-size: 22px;
+  font-family: BebasNeueThin;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: normal;
+}
+#tab-description p{}
