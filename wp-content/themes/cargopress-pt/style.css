@@ -61,7 +61,11 @@ Text domain: cargopress-pt
   src: url(assets/fonts/bebas/ttf/BebasNeueBold.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
-  font-family: BebasNeueThin; /* Имя шрифта */
+  font-family: BebasNeueRegular; /* Имя шрифта */
+  src: url(assets/fonts/bebas/ttf/BebasNeueRegular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: BebasNeue Thin; /* Имя шрифта */
   src: url(assets/fonts/BebasNeue Thin.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
@@ -75,10 +79,6 @@ Text domain: cargopress-pt
 @font-face {
   font-family: Roboto-Light; /* Имя шрифта */
   src: url(assets/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
-}
-@font-face {
-  font-family: BebasNeueLight; /* Имя шрифта */
-  src: url(assets/fonts/BebasNeueLight.ttf); /* Путь к файлу со шрифтом */
 }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -1476,7 +1476,7 @@ input, select, textarea { outline: 0; }
   .header__container::before { bottom: 30px; } }
 
 /* 05.03. Main Title */
-.main-title { background: linear-gradient(to right, #f5f5f5 0%, #eeeeee 100%); padding: 50px 0; margin-bottom: 30px; }
+.main-title {padding: 50px 0; margin-bottom: 30px; }
 .main-title__primary { text-transform: uppercase; margin: 0; font-size: 44px; }
 .main-title__secondary { font-family: "Roboto", Helvetica, Arial, sans-serif; font-size: 16px; color: #aaaaaa; margin: 10px 0 7px 0; font-weight: normal; letter-spacing: 0px; }
 
