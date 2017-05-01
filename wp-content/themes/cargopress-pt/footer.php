@@ -10,6 +10,9 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 ?>
 	<?php if ( is_front_page()) : ?>
 	<span class="line-razd"></span>
+	<div class="container">
+		<?php echo do_shortcode('[huge_it_portfolio id="1"]'); ?>
+	</div>
 
 	<div class="footer-top-predl">
 			<div class="row">
