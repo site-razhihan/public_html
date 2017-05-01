@@ -9,7 +9,7 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
 	<?php if ( is_front_page()) : ?>
-	<span class="line-razd"><img src="/wp-content/themes/cargopress-pt/assets/images/razd.png"></span>
+	<span class="line-razd"></span>
 	<div class="footer-logos">
 		<div class="head_block row">
 			<span class="head-text">Партнеры</span>

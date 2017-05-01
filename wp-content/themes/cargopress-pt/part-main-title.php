@@ -39,12 +39,12 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 	echo esc_attr( $style_attr ); 
 	if(!empty($background_head)){
 		echo 'background:url('.$background_head["guid"].') no-repeat; 
-		background-size: 100%; 
-		background-position: bottom center;';
+		background-size: cover; 
+		background-position: top center;';
 	} else{
 		echo 'background:url(/wp-content/uploads/2017/04/fon-head.png) no-repeat; 
-		background-size: 100%; 
-		background-position: bottom center;';
+		background-size: cover; 
+		background-position: top center;';
 	}
 
 ?> ">

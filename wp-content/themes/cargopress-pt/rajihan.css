@@ -304,4 +304,7 @@ span.line-razd {
     display: inline-block;
     text-align: center;
     margin: 41px 0;
+    width: 100%;
+    height: 43px;
+    background: url(/wp-content/themes/cargopress-pt/assets/images/razd.png) no-repeat center center;
 }
