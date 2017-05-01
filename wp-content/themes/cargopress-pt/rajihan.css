@@ -270,6 +270,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 .footer-logos {
     width: 1260px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .logo_showcase .slick-slide img {
@@ -277,6 +278,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     padding: 0;
     border: 0px solid #e31e24;
     width: 120px;
+    margin-top: 8%;
 }
 
 .logo_showcase .slick-slide {
@@ -297,4 +299,9 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     background: url(/wp-content/themes/cargopress-pt/assets/images/romb-hover.png) no-repeat;
     background-size: cover;
     
+}
+span.line-razd {
+    display: inline-block;
+    text-align: center;
+    margin: 41px 0;
 }

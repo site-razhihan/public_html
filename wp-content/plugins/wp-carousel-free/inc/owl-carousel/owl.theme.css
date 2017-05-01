@@ -1,0 +1,86 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+.wordpress-carousel-free-section {width:95%;margin:0 2.5%}
+.wordpress-carousel-free-section .owl-controls{
+	text-align: center;
+}
+
+
+.wordpress-carousel-free-section .owl-controls .owl-buttons {
+  font-size: 25px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top:-35px;
+}
+
+
+
+/* Styling Next and Prev buttons */
+
+.wordpress-carousel-free-section .owl-controls .owl-buttons div{
+	display: inline-block;
+	zoom: 1;
+	color:#666;
+	*display: inline;/*IE7 life-saver */
+	position:absolute;top:0;opacity:.6;
+}
+
+.wordpress-carousel-free-section .owl-controls .owl-buttons div.owl-prev {left:-15px}
+.wordpress-carousel-free-section .owl-controls .owl-buttons div.owl-next {right:-15px}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.wordpress-carousel-free-section .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.wordpress-carousel-free-section .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.wordpress-carousel-free-section .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background:#666;
+}
+
+.wordpress-carousel-free-section .owl-controls .owl-page.active span,
+.wordpress-carousel-free-section .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.wordpress-carousel-free-section .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
