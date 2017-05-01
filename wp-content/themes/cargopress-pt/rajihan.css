@@ -308,3 +308,97 @@ span.line-razd {
     height: 43px;
     background: url(/wp-content/themes/cargopress-pt/assets/images/razd.png) no-repeat center center;
 }
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\f10c";
+    width: 20px;
+    height: 20px;
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    filter: alpha(opacity=25);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\f111";
+    width: 20px;
+    height: 20px;
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    filter: alpha(opacity=25);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.grid-layout-wrapper .slick-dots li button:before {
+    color: #3a4255;
+    opacity: 0.9;
+}
+.grid-layout-wrapper .slick-dots li.slick-active button:before {
+    color: #e31e24;
+}
+
+.slick-dots li {
+    margin-right: 15px;
+}
+
+.simple-testimonials-showcase .sts-wrap .grid-layout .testimonial-author {
+    margin: 15px auto 13px;
+    letter-spacing: inherit;
+    color: #e31e24;
+    font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+img.img-circle {
+    margin-bottom: 20px;
+}
+
+.simple-testimonials-showcase .sts-wrap .grid-layout .img-circle {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-layout.slick-slide.slick-active{
+    opacity: 0.3;
+}
+.grid-layout.slick-slide.slick-active img{
+	width: 130px;
+	height: 140px;
+}
+.grid-layout.slick-slide.slick-active p{
+    font-size: 14px;
+}
+
+.grid-layout.slick-slide.slick-current.slick-active + div{
+    opacity: 1;
+}
+.grid-layout.slick-slide.slick-current.slick-active + div p{
+    font-size: 16px;
+}
+.grid-layout.slick-slide.slick-current.slick-active + div img{
+	width: 200px!important;
+	height: 210px!important;
+	border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    margin-top: -25px;
+}
+
+.grid-layout.slick-slide.slick-active:after {
+    content: "";
+    width: 300px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px 170px;
+}
+.grid-layout.slick-slide.slick-current.slick-active + div:after{
+	display: none;
+}

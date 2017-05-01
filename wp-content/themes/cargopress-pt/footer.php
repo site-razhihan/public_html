@@ -8,6 +8,12 @@
 $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
+	<div class="container">
+		<div class="row">
+		<?php echo do_shortcode('[simple_testimonials adaptiveheight="true" arrows="false" dots="true" fade="true" infinite="true" slidestoshow="3" total_post="6" layout="grid" speed="300" autoplayspeed="3000"  autoplay="false"]'); ?>
+		</div>
+	</div>
+
 	<?php if ( is_front_page()) : ?>
 	<span class="line-razd"></span>
 	<div class="footer-logos">

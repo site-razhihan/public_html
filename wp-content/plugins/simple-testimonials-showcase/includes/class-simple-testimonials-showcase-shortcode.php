@@ -85,7 +85,7 @@ class Simple_Testimonials_Showcase_Shortcode
             <div id="regular-<?php echo intval( $testimonials_counter ); ?>" class="grid-layout-wrapper">
                 <?php
                 while ( $the_query->have_posts() ) : $the_query->the_post();
-                $author_img = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id()), 'thumbnail');
+                $author_img = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_id()), 'large');
                 $author_role = ( !empty( get_post_meta( get_the_id(), '_sts_author_role', TRUE ) ) ) ? get_post_meta( get_the_id(), '_sts_author_role', TRUE ) : '';
                 $author_organization = ( !empty( get_post_meta( get_the_id(), '_sts_author_organization', TRUE ) ) ) ? get_post_meta( get_the_id(), '_sts_author_organization', TRUE ) : '';
                 if( !empty( $author_role ) && !empty( $author_organization ) ) {
@@ -96,9 +96,9 @@ class Simple_Testimonials_Showcase_Shortcode
                     <?php if ( !empty( $author_img[0] ) ) { ?>
                     <img src="<?php echo esc_url( $author_img[0] ); ?>" class="img-circle">
                     <?php }?>
+                    <p class="testimonial-content"><?php echo esc_attr( get_the_content() ); ?></p>
                     <h5 class="testimonial-author"><?php echo esc_attr( get_the_title() ); ?></h5>
                     <h6 class="testimonial-author-role"><?php echo esc_attr( $author_organization ); ?><?php echo esc_attr( $author_role ); ?></h6>
-                    <p class="testimonial-content"><?php echo esc_attr( get_the_content() ); ?></p>
                 </div>
                 <?php endwhile; ?>
             </div>
