@@ -9,6 +9,8 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
 	<?php if ( is_front_page()) : ?>
+	<span class="line-razd"></span>
+
 	<div class="footer-top-predl">
 			<div class="row">
 				<div class="col-md-5"></div>
@@ -22,7 +24,7 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 	</div>
 
 	<div class="container">
-			<div class="head_block row otziv">
+		<div class="head_block row otziv">
 			<span class="line-top-otz"></span>
 			<span class="head-text">Отзывы</span>
 		</div>
