@@ -1,19 +1,4 @@
 jQuery(document).ready(function () {
-  var $img = jQuery('.wplss-logo-slide img');      
-  // ждем загрузки картинки браузером
-  $img.ready(function(){
-      // удаляем атрибуты width и height
-      jQuery(this).removeAttr("width")
-             .removeAttr("height")
-             .css({ width: "", height: "" });
-   
-      // получаем заветные цифры
-      var width  = jQuery(this).width();
-      var height = jQuery(this).height();
-
-      var razn = (120-height)/2;
-      jQuery(this).css('padding-top', razn+'px');
-  });
   jQuery('#menu-we_do li').click(
     function(){
       //jQuery(".sub-menu").css("display", "none");
@@ -38,6 +23,23 @@ jQuery(document).ready(function () {
       }
     }
   );
+  
+    var $img = jQuery('.slick-track img');      
+    // ждем загрузки картинки браузером
+    $img.load(function(){
+        // удаляем атрибуты width и height
+        jQuery(this).removeAttr("width")
+               .removeAttr("height")
+               .css({ width: "", height: "" });
+     
+        // получаем заветные цифры
+        var width  = jQuery(this).width();
+        var height = jQuery(this).height();
 
+        var razn = (120-height)/2;
+        console.log('razn', razn);
+
+        jQuery(this).parent().css('padding-top', razn+'px', 'important');
+    });
 
 });
