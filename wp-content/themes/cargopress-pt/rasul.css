@@ -8,7 +8,8 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
   .top-main.main-2 {width: 40%; float: right;}
   header.header {width: 100%; display: inline-block;}
   .header__logo {display: block; width: 19%; float: left;}
-  ul#menu-menu_2 {text-align: right;}
+  ul#menu-menu_2 {text-align: right; border-bottom: 3px solid #3a4255; 
+padding-bottom: 5px;}
   .widget.widget-social-icons {     padding-top: 30px; padding-right: 20px; width: 100%;}
   img.img-responsive {position: absolute;margin-top: 42px;margin-left: -24px;}
   span.city-block {
@@ -80,7 +81,8 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 }
 @media (min-width: 1200px) { .header__navigation { width: 100%; margin-left: 0px; margin-top: 0px; margin-bottom: 5px; } }
 @media (min-width: 992px) { .header__widgets { -webkit-order: 2; -ms-flex-order: 2; order: 2; width: 100%; height: 95px; text-align: right; padding: 0; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; } }
-@media (min-width: 1200px) { .main-navigation { padding-left: 0px; } }
+@media (min-width: 1200px) { .main-navigation { padding-left: 0px; border-bottom: 3px solid #3a4255; 
+padding-bottom: 5px;} }
 @media (min-width: 992px) { 
   .main-navigation > li > a { color: #ffffff; padding: 12px 8px 0; } 
   .main-navigation > li:nth-child(1) > a { padding-left:0px; } 
@@ -943,7 +945,7 @@ body.woocommerce-page .upsells.products h2, body.woocommerce-page .related h2 {
 .hentry__content td{
   width: 222px;
   height: 40px;
-  font-size: 17px;
+  font-size: 14px;
 }
 caption { 
   padding-top: 8px; 
@@ -955,27 +957,29 @@ caption {
  .hentry__content .colortext{
   color: #aa4547;
   font-family: Roboto-Regular;
-  font-size: 19px;
+  font-size: 14px;
  }
  .hentry__content .colortext_2{
   color: #aa4547;
   font-family: Roboto-Regular;
-  font-size: 19px;
+  font-size: 14px;
  }
 .siteorigin-widget-tinymce.textwidget p {
   color: #fff;
   font-family: Roboto-Thin;
-  font-size: 19px;
+  font-size: 14px;
   font-weight: 600;
 }
 .siteorigin-widget-tinymce.textwidget .family-text_2 {
-  font-size: 32px;
+  font-size: 24px;
   color: #e31e24;
   font-family: BebasNeueLight;
   font-weight: 600;
 }
 .siteorigin-widget-tinymce.textwidget .family-text_2 p {
-  font-size: 19px;
+  font-size: 14px;
   color: #fff;
   font-family: Roboto-Thin;
 }
+105 70
+452 303
