@@ -148,15 +148,15 @@ $j = 1;
 
 /* full screen icon */
 .sp-full-screen-button::before {
-    color: <?php echo $WRIS_L3_Navigation_Color; ?> !important;
+    color: <?php echo "#e31e24;!important;" ?>;
 }
 
 /* hover navigation icon color */
 .sp-next-arrow::after, .sp-next-arrow::before {
-	background-color: <?php echo $WRIS_L3_Navigation_Color; ?> !important;
+	background-color: <?php echo "#e31e24;!important;" ?>;
 }
 .sp-previous-arrow::after, .sp-previous-arrow::before {
-	background-color: <?php echo $WRIS_L3_Navigation_Color; ?> !important;
+	background-color: <?php echo "#e31e24;!important;" ?>;
 }
 
 
