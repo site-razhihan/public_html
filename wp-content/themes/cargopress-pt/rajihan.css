@@ -2,6 +2,11 @@
 	text-align: center;
     margin-bottom: 73px;
 }
+.head_block.row.otziv {
+	text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
 
 .head_block.row span.head-text{
 	position: relative;
@@ -175,16 +180,22 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	    background-repeat: no-repeat, no-repeat;
 	    background-position: top left, top right;
 	}
-}
-
-@media (max-width: 1680px) {
-	.footer-top-vopros{
+	.footer-top-predl{
 	    padding: 80px 0;
 	    background-color: #000000;
-	    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
-	    background-repeat: no-repeat, no-repeat;
-	    background-position: -100% top, top right;
+	    background-image: url(/wp-content/themes/cargopress-pt/assets/images/fon-predl.png);
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    box-shadow: inset 0px 0px 10px rgba(227, 30, 36, 0.32);
 	}
+}
+
+.footer-top-vopros{
+    padding: 80px 0;
+    background-color: #000000;
+    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -100% top, top right;
 }
 
 .est-vopr{
@@ -303,7 +314,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 span.line-razd {
     display: inline-block;
     text-align: center;
-    margin: 41px 0;
+    margin: 10px 0 43px 0;
     width: 100%;
     height: 43px;
     background: url(/wp-content/themes/cargopress-pt/assets/images/razd.png) no-repeat center center;
@@ -366,39 +377,77 @@ img.img-circle {
     margin-right: auto;
 }
 
-.grid-layout.slick-slide.slick-active{
-    opacity: 0.3;
-}
-.grid-layout.slick-slide.slick-active img{
-	width: 130px;
-	height: 140px;
-}
-.grid-layout.slick-slide.slick-active p{
-    font-size: 14px;
+.grid-layout{
+	outline: none!important;
 }
 
-.grid-layout.slick-slide.slick-current.slick-active + div{
-    opacity: 1;
-}
-.grid-layout.slick-slide.slick-current.slick-active + div p{
-    font-size: 16px;
-}
-.grid-layout.slick-slide.slick-current.slick-active + div img{
-	width: 200px!important;
-	height: 210px!important;
-	border-width: 2px;
-    border-color: red;
-    border-style: solid;
-    margin-top: -25px;
+@media (min-width: 992px) { 
+	.grid-layout.slick-slide.slick-active{
+	    opacity: 0.3;
+	}
+	.grid-layout.slick-slide.slick-active img{
+		width: 130px;
+		height: 140px;
+	}
+	.grid-layout.slick-slide.slick-active p{
+	    font-size: 14px;
+	}
+	.grid-layout.slick-slide.slick-current.slick-active + div{
+	    opacity: 1;
+	}
+	.grid-layout.slick-slide.slick-current.slick-active + div p{
+	    font-size: 16px;
+	}
+	.grid-layout.slick-slide.slick-current.slick-active + div img{
+		width: 200px!important;
+		height: 210px!important;
+		border-width: 2px;
+	    border-color: red;
+	    border-style: solid;
+	    margin-top: -25px;
+	}
+	.grid-layout.slick-slide.slick-active:after {
+	    content: "";
+	    width: 300px;
+	    height: 60px;
+	    background: rgba(0, 0, 0, 0.6);
+	    padding: 100px 170px;
+	}
+	.grid-layout.slick-slide.slick-current.slick-active + div:after{
+		display: none;
+	}
 }
 
-.grid-layout.slick-slide.slick-active:after {
-    content: "";
-    width: 300px;
-    height: 60px;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 100px 170px;
+.line-top-otz{
+	background: url(/wp-content/themes/cargopress-pt/assets/images/otz-icon.png) no-repeat center center;
+    display: inline-block;
+    height: 38px;
+    width: 60px;
+    margin-bottom: 10px;
 }
-.grid-layout.slick-slide.slick-current.slick-active + div:after{
-	display: none;
+
+.slick-list.draggable {
+    max-height: 450px;
+}
+
+.predl-zag{
+    letter-spacing: 1px;
+    font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #e31e24;
+    line-height: 1;
+    margin-bottom: 10px;	
+    width: 100%;
+    display: inline-block;
+}
+.predl-txt{
+	font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
+	font-size: 24px; 
+	color: #fff; 
+	line-height: 1.3; 
+}
+
+.footer-top-predl .hentry__content {
+    width: 90%;
+    text-align: right;
 }
