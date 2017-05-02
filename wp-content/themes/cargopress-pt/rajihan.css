@@ -193,7 +193,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 	    background-color: #000000;
 	    background-image: url(/wp-content/themes/cargopress-pt/assets/images/footer-2-1.png), url(/wp-content/themes/cargopress-pt/assets/images/footer-2-2.png);
 	    background-repeat: no-repeat, no-repeat;
-	    background-position: -100% top, top right;
+	    background-position: -50% top, top right;
 	}
 }
 
