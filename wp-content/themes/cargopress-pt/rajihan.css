@@ -9,7 +9,7 @@
 }
 .head_block.row.proekt {
 	text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -523,13 +523,32 @@ img.img-circle {
     text-shadow: 0px 0px 1px #fff;
 }
 
+.all-project{
+    font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1; 
+    padding: 14px 28px;
+    background: #e31e24;
+    color: #fff; 
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.all-project:hover{
+    background: #00bff3;
+	color: #fff; 
+    box-shadow: 0px 0px 3px #00bff3;
+}
+
 #huge_it_portfolio_content_1 .og-expander {
     z-index: 100;
 }
 .portfolio-gallery-content p{
-	font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
-	font-size: 16px!important; 
-	color: #fff; 
+    font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
+    font-size: 16px!important; 
+    color: #fff; 
 	line-height: 1; 
 }
 

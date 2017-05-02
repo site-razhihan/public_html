@@ -17,6 +17,9 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 			<p class="descr-proekt">Качественная восстановительная полировка и защита кузова</p>
 		</div>
 		<?php echo do_shortcode('[huge_it_portfolio id="1"]'); ?>
+		<div style="text-align: center;">
+			<a class="all-project" href="#">Посмотреть все работы</a>
+		</div>
 	</div>
 
 	<div class="footer-top-predl">
