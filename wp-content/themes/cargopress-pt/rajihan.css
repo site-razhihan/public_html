@@ -563,4 +563,7 @@ img.img-circle {
 	.footer-logos{
 		display: none;
 	}
+	.header__container, .main-navigation .sub-menu>li>a {
+	    background-color: #000!important;
+	}
 }

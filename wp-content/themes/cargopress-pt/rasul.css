@@ -1055,3 +1055,63 @@ div#pgc-558-0-0 p {
 .hentry__content #pl-558 #pg-558-0 {
     margin-bottom: 0px;
 }
+.hentry__content #pl-521 #pg-521-0 {
+    margin-bottom: 0px;
+}
+#pg-521-1.panel-no-style {
+    margin-left: 8.1%;
+    margin-bottom: 0px;
+}
+#pg-521-1.panel-no-style p {
+    font-size: 30px;
+    font-family: BebasNeueLight;
+    font-weight: 600;
+}
+/*#pg-521-1.panel-no-style #panel-521-1-1-0 p:hover {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #c52929;
+}*/
+div#panel-521-2-0-0 p {
+    font-size: 18px;
+    font-family: Roboto-Light;
+    text-align: center;
+}
+div#pgc-521-2-0 {
+    width: 83%;
+    margin-left: 94px;
+}
+div#panel-521-3-0-0 p {
+    font-size: 24px;
+    color: #e31e24;
+    font-family: BebasNeueLight;
+    font-weight: bold;
+}
+div#pgc-521-3-0 {
+    margin-left: 21%;
+}
+div#pg-521-4 .textwidget p {
+    font-size: 14px;
+    font-family: Roboto-Thin;
+    text-align: center;
+}
+div#pg-521-4 .alignnone {
+    margin: 0px;
+}
+div#pg-521-5 {
+    margin: -22px;
+}
+div#panel-521-6-1-0 p {
+    font-size: 30px;
+    text-align: center;
+    font-family: BebasNeueLight;
+    font-weight: bold;
+}
+div#pgc-521-6-0 .textwidget img {
+    margin-left: 83%;
+    margin-top: 4.8%;
+}
+div#pgc-521-6-2 .textwidget img {
+    margin-left: -10%;
+    margin-top: 4.8%;
+}
