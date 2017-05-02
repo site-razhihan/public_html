@@ -540,6 +540,7 @@ img.img-circle {
 	.footer-top-vopros {
 	    background: transparent!important;
 	    padding: 20px;
+        text-align: center;
 	}
 	.footer-top-predl {
 	    background: transparent!important;
@@ -566,4 +567,93 @@ img.img-circle {
 	.header__container, .main-navigation .sub-menu>li>a {
 	    background-color: #000!important;
 	}
+    .slider-block {
+        display: none;
+    }
+    span.phone-line {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 32px!important;
+    }
+    .widget.widget-social-icons {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0 10px 0;
+    }
+    .top-main.main-1 {
+        margin-top: 10px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.2;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+    }
+    button.navbar-toggle {
+        background-color: transparent;
+        margin-top: 30px;
+    }
+    .head_block.row {
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    div#pgc-521-1-0, div#pgc-521-2-0, div#pgc-521-1-1, div#pgc-521-3-0, div#pg-521-6 , div#pgc-521-2-0 {
+        text-align: center;
+        padding: 0;
+        margin-left:0!important;
+    }
+
+    div#pgc-521-6-0, div#pgc-521-6-2, div#pgc-521-1-2{
+        display: none;
+    }
+    span.line-razd {
+        margin: 10px 0;
+    }
+    .form_6 {
+        width: 100%!important;
+    }
+    div#pg-521-8 {
+        width: 100%;
+        padding-left: 8px;
+        margin-left: 0!important;
+        margin-right: 0!important
+
+    }
+    div#pgc-521-8-0 {
+        margin-left: 0px!important;
+        margin-bottom: 30px!important;
+        margin-top: 30px!important;
+    }
+    div#pg-521-6 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 992px) { 
+    #huge_it_portfolio_content_1 .og-grid > li .og-pointer {
+        border-bottom-color: #000!important;
+    }
+    .og-pointer {
+        top: -10px!important;
+    }
+
+    #huge_it_portfolio_content_1 .og-grid > li.all.og-expanded {
+        border: 0px solid #e31e24;
+        background: transparent;
+    }
+    #huge_it_portfolio_content_1 .og-grid > li.all.og-expanded:hover{
+        box-shadow: none;
+    }
+
+    #huge_it_portfolio_content_1 .og-expander .elastislide-wrapper {
+        background-color: #000000!important;
+    }
+
+    .elastislide-horizontal {
+        padding: 0!important;
+    }
 }
