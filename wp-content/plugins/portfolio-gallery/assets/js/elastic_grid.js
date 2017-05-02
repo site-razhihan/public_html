@@ -236,12 +236,20 @@ jQuery(function() {
                 //initial hover direction
                 spanObject = jQuery('<span></span>');
                 spanObject.html(item.title);
+                
                 figureObject = jQuery('<figure></figure>');
-                figureObject.append(spanObject);
+                figureObject.append(spanObject);                
+
+                spanObjectName = jQuery('<span></span>');
+                spanObjectName.html(item.title);
+                
+                figureObjectName = jQuery('<div class="name_proekt"></div>');
+                figureObjectName.prepend(spanObjectName);
 
                 imgObject.appendTo(aObject);
                 figureObject.appendTo(aObject);
                 aObject.appendTo(liObject);
+                figureObjectName.prependTo(liObject);
                 liObject.appendTo(ulObject);
             }
         }

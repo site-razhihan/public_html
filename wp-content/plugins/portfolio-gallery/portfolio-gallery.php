@@ -1,12 +1,11 @@
 <?php
 
 /*
-Plugin Name: Portfolio Gallery
+Plugin Name: Portfolio Gallery Auto
 Plugin URI: https://huge-it.com/portfolio-gallery
 Description: Portfolio Gallery is a great plugin for adding specialized portfolio galleriey, video portfolio gallery of just a gallery with single images.
 Version: 2.3.3
 Author: Gallery By Huge IT
-Author URI: https://huge-it.com/
 License: GNU/GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: portfolio-gallery
 Domain Path: /languages

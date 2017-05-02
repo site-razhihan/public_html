@@ -7,6 +7,11 @@
     margin-bottom: 30px;
     margin-top: 50px;
 }
+.head_block.row.proekt {
+	text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
 
 .head_block.row span.head-text{
 	position: relative;
@@ -199,6 +204,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     background-repeat: no-repeat;
     background-position: top left;
     box-shadow: inset 0px 0px 10px rgba(227, 30, 36, 0.32);
+    margin-top: 60px;
 }
 
 
@@ -324,6 +330,10 @@ span.line-razd {
     height: 43px;
     background: url(/wp-content/themes/cargopress-pt/assets/images/razd.png) no-repeat center center;
 }
+.line-razd.proekt-line{
+	margin: 10px 0 0 0;
+}
+
 .slick-dots li button:before {
     position: absolute;
     top: 0;
@@ -455,4 +465,64 @@ img.img-circle {
 .footer-top-predl .hentry__content {
     width: 90%;
     text-align: right;
+}
+
+#huge_it_portfolio_content_1 .og-grid > li {
+    width: 250px;
+    height: 150px;
+    margin: 10px 5px 0 5px;
+    border: 2px solid #e31e24;
+}
+
+#huge_it_portfolio_content_1 .og-grid > li:hover {
+    border: 2px solid #00bff3;
+    box-shadow: 0px 0px 10px #00bff3;
+}
+
+
+#huge_it_portfolio_content_1 .og-grid > li > a > figure {
+    background-color: transparent;
+    background-image: url(/wp-content/themes/cargopress-pt/assets/images/portfolio/info-icon-h.png), url(/wp-content/themes/cargopress-pt/assets/images/portfolio/loop-icon-h.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+#huge_it_portfolio_content_1 .og-grid > li {
+    background-color: transparent;
+    background-image: url(/wp-content/themes/cargopress-pt/assets/images/portfolio/info-icon.png), url(/wp-content/themes/cargopress-pt/assets/images/portfolio/loop-icon.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+#huge_it_portfolio_content_1 .og-grid li > a > img {
+    z-index: -1;
+}
+.og-details img {
+    z-index: 1!important;
+}
+
+.descr-proekt{
+	font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
+	font-size: 18px; 
+	color: #fff; 
+	line-height: 1; 	
+	margin-top: 30px;
+}
+
+.name_proekt {
+    position: absolute;
+    margin-top: 235px;
+    font-size: 22px;
+    width: 250px;
+}
+
+.name_proekt span{
+    font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 1px #fff;
+}
+
+#huge_it_portfolio_content_1 .og-expander {
+    z-index: 100;
 }

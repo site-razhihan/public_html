@@ -9,8 +9,13 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 
 ?>
 	<?php if ( is_front_page()) : ?>
-	<span class="line-razd"></span>
+	<span class="line-razd proekt-line"></span>
 	<div class="container">
+		<div class="head_block row proekt">
+			<span class="head-text">Наши проекты</span>
+			<span class="line-bottom"></span>
+			<p class="descr-proekt">Качественная восстановительная полировка и защита кузова</p>
+		</div>
 		<?php echo do_shortcode('[huge_it_portfolio id="1"]'); ?>
 	</div>
 
@@ -35,7 +40,7 @@ $footer_widgets_layout = CargoPressHelpers::footer_widgets_layout_array();
 		<div class="row">
 		<?php echo do_shortcode('[simple_testimonials adaptiveheight="true" arrows="false" dots="true" fade="true" infinite="true" slidestoshow="3" total_post="6" layout="grid" speed="300" autoplayspeed="3000"  autoplay="false"]'); ?>
 			<div class="head_block row" style="margin-top: 40px; margin-bottom: 0px;">
-				<span class="line-bottom"></span>
+				<!-- <span class="line-bottom"></span> -->
 			</div>
 		</div>
 	</div>
