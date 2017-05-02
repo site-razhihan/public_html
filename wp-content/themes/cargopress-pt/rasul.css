@@ -1115,3 +1115,36 @@ div#pgc-521-6-2 .textwidget img {
     margin-left: -10%;
     margin-top: 4.8%;
 }
+.form_6 {
+  font-family: Roboto-Light; 
+  text-align: center; 
+  width: 284px;
+  height: 140px; 
+  border: 1px solid #e31e24;
+}
+td.form_64 {
+    width: 64px;
+}
+.form_63 {
+  font-size: 16px;
+  font-family: BebasNeueLight;
+  color: #ff676b;
+  font-weight: bold;
+}
+.form_62 {
+  text-align: left;
+  padding: 0px 0px 18px 18px;
+}
+div#pg-521-7 {
+    margin-bottom: -1px;
+}
+div#pgc-521-8-0 {
+    margin-left: 15px;
+}
+div#pg-521-7 {
+    margin-left: 7px;
+}
+div#pg-521-8 {
+    margin-left: 126px;
+    margin-right: -126px;
+}
