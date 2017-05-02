@@ -481,7 +481,7 @@ img.img-circle {
 
 
 #huge_it_portfolio_content_1 .og-grid > li > a > figure {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.71);
     background-image: url(/wp-content/themes/cargopress-pt/assets/images/portfolio/info-icon-h.png), url(/wp-content/themes/cargopress-pt/assets/images/portfolio/loop-icon-h.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
@@ -525,4 +525,42 @@ img.img-circle {
 
 #huge_it_portfolio_content_1 .og-expander {
     z-index: 100;
+}
+.portfolio-gallery-content p{
+	font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
+	font-size: 16px!important; 
+	color: #fff; 
+	line-height: 1; 
+}
+
+@media (max-width: 992px) { 
+	.navbar-toggle{
+	    z-index: 100000;
+	}
+	.footer-top-vopros {
+	    background: transparent!important;
+	    padding: 20px;
+	}
+	.footer-top-predl {
+	    background: transparent!important;
+	    padding: 20px;
+	}
+	.footer-top-predl .hentry__content {
+	    width: 100%;
+	    text-align: center;
+	}
+	.contact-vopr span {
+	    margin-bottom: 20px;
+	}
+
+	ul#menu-we_do > li {
+	    width: 100%!important;
+	}
+	ul#menu-we_do .sub-menu {
+	    left: 0!important;
+	}
+
+	.footer-logos{
+		display: none;
+	}
 }

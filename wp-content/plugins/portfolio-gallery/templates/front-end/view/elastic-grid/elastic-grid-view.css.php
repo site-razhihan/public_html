@@ -78,13 +78,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php $margin = $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_margin']; ?> margin: <?php echo $margin; ?>px <?php echo $margin/2; ?>px 65px <?php echo $margin/2; ?>px;
 }
 
+@media (min-width: 992px) { 
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(1), #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(5n) {
     margin-left: 0;
 }
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(4n) {
     margin-right: 0;
 }
-
+}
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li > a {
     width: 100%;
     height: 100%;
