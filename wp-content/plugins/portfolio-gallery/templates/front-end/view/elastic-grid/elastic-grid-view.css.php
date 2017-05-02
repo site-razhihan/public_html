@@ -75,7 +75,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li {
     width: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_width'] + 2*$portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_border_width']; ?>px;
     height: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_height'] + 2*$portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_border_width']; ?>px;
-<?php $margin = $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_margin']; ?> margin: <?php echo $margin; ?>px <?php echo $margin/2; ?>px 0 <?php echo $margin/2; ?>px;
+<?php $margin = $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_margin']; ?> margin: <?php echo $margin; ?>px <?php echo $margin/2; ?>px 65px <?php echo $margin/2; ?>px;
+}
+
+#huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(1), #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(5n) {
+    margin-left: 0;
+}
+#huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li:nth-child(4n) {
+    margin-right: 0;
 }
 
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li > a {
@@ -98,9 +105,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     padding: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_padding_top_bottom']; ?>px 0;
     margin: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_margin_top']; ?>px 20px 20px 20px;
     color: #<?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_font_color']; ?>;
-    border-bottom: solid #<?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_border_color']; ?> <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_border_width']; ?>px;
+    border-bottom: 0;
     font-size: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_font_size']; ?>px;
     text-align: <?php echo $portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_title_align']; ?>;
+    font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li .og-pointer {
@@ -108,11 +117,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 #huge_it_portfolio_content_<?php echo $portfolioID; ?> .og-grid > li > a > figure {
-    background: <?php
+    /*background: <?php
 			list($r,$g,$b) = array_map('hexdec',str_split($portfolio_gallery_get_options['portfolio_gallery_ht_view7_element_overlay_background_color_'],2));
 				$overlay_opacity=$portfolio_gallery_get_options["portfolio_gallery_ht_view7_element_overlay_opacity"]/100;
 				echo 'rgba('.$r.','.$g.','.$b.','.$overlay_opacity.') ';
-	?>;
+	?>;*/
+
     margin: 0;
 }
 
