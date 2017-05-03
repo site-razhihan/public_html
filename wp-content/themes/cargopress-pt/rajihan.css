@@ -654,6 +654,13 @@ img.img-circle {
     div#pg-521-6 {
         margin-bottom: 0;
     }
+
+    body.woocommerce-page ul.products li.product .button, .woocommerce ul.products li.product .button {
+        width: 90%!important;
+    }
+    .widget.woocommerce.widget_product_search{
+        padding: 0 10px;
+    }
 }
 
 @media (min-width: 992px) { 
@@ -704,4 +711,8 @@ body.woocommerce-page ul.products li.product .button:before {
 
 a.added_to_cart.wc-forward {
     display: none;
+}
+.breadcrumbs a {
+    padding-right: 0;
+    margin-right: 0;
 }
