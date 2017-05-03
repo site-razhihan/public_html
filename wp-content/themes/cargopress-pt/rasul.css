@@ -1245,8 +1245,9 @@ color: #ff676b;
 }
 body.woocommerce-page .widget_price_filter .price_slider_wrapper .price_label {
     font-size: 16px;
-    line-height: 44px;
     letter-spacing: 2px;
+    line-height: 1; 
+    margin-bottom: 20px;
 }
 body.woocommerce-page .widget_shopping_cart_content .buttons {
     margin-bottom: 0;
@@ -1263,4 +1264,7 @@ tr.woocommerce-cart-form__cart-item.cart_item a {
 }
 input.input-text.qty.text:hover {
     background: #75151a;
+}
+tr.woocommerce-cart-form__cart-item.cart_item td.product-remove {
+    width: auto;
 }
