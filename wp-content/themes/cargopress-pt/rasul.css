@@ -1298,11 +1298,56 @@ tr.woocommerce-cart-form__cart-item.cart_item a.remove {
     border: 0;
 }
 .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
-    float: left;
+    float: right;
     width: 30%;
 }
 .woocommerce .quantity .qty {
     width: 3.631em;
     text-align: center;
     color: #fff;
+}
+body.woocommerce-page table.shop_table .product-quantity .quantity .qty {
+    height: 30px;
+    font-size: 12px;
+    width: 55px;
+}
+body.woocommerce-page table.shop_table .product-remove a.remove {
+    color: #e31e24 !important;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+body.woocommerce-page table.shop_table th {
+    color: #fff;
+    font-size: 14px;
+    font-family: Roboto;
+}
+body.woocommerce-page table.shop_table .product-name a {
+    color: #e31e24;
+    font-family: roboto;
+    font-size: 14px;
+}
+
+a.checkout-button.button.alt.wc-forward br {
+    display: none;
+}
+a.checkout-button.button.alt.wc-forward {
+    line-height: 1;
+    padding: 10px 0;
+    background: linear-gradient(to top, #060606, #e31e24);
+    font-size: 14px;
+}
+
+body.woocommerce-page table.shop_table td.actions input.button {
+    background: linear-gradient(to top, #060606, #e31e24);
+}
+
+body.woocommerce-page .cart-collaterals .cart_totals table tr td {
+    background-color: transparent;
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    vertical-align: middle;
 }
