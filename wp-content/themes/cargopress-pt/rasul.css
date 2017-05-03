@@ -596,7 +596,7 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs {
   border-radius: 0; 
   padding: 0;
   margin-bottom: 0;
-  font-size: 19px; 
+  font-size: 14px; 
 }
 body.woocommerce-page div.product .woocommerce-tabs ul.tabs li { 
   border-radius: 0;
@@ -623,7 +623,7 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a {
   font-family: Roboto-Thin; 
   text-transform: uppercase; 
   color: #aaaaaa; 
-  padding: 4px 36px; 
+  padding: 10px 36px; 
 }
 ul#menu-we_do {
     display: inline-block;
@@ -894,19 +894,19 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a {
 }
 #tab-description h2{
   font-size: 22px;
-  font-family: BebasNeueThin;
+  font-family: BebasNeue Thin;
   color: #fff;
   margin-left: 10px;
   font-weight: normal;
 }
 #tab-description p{
   font-family: "Roboto-Thin";
-  font-size: 19px;
+  font-size: 14px;
   margin-left: 10px;
 }
 body.woocommerce-page #reviews #comments h2 {
   font-size: 22px;
-  font-family: BebasNeueThin;
+  font-family: BebasNeue Thin;
   color: #fff;
   margin-left: 10px;
   font-weight: normal;
@@ -979,7 +979,7 @@ body.woocommerce-page #review_form #respond input#submit{
 body.woocommerce-page .upsells.products h2, body.woocommerce-page .related h2 {
   font-size: 24px;
   margin-top: 0;
-  font-family: BebasNeueThin;
+  font-family: BebasNeue Thin;
   color: #fff;
   font-weight: normal;
 }
@@ -1245,10 +1245,26 @@ color: #ff676b;
 }
 body.woocommerce-page .widget_price_filter .price_slider_wrapper .price_label {
     font-size: 16px;
-    line-height: 44px;
     letter-spacing: 2px;
+    line-height: 1; 
+    margin-bottom: 20px;
 }
 body.woocommerce-page .widget_shopping_cart_content .buttons {
     margin-bottom: 0;
     letter-spacing: 1px;
+}
+tr.woocommerce-cart-form__cart-item.cart_item a {
+    color: #e31e24;
+    font-family: Roboto-Thin;
+    font-size: 16px;
+}
+.quantity input.input-text.qty.text {
+    background: #000;
+    border: 1px solid #e31e24;
+}
+input.input-text.qty.text:hover {
+    background: #75151a;
+}
+tr.woocommerce-cart-form__cart-item.cart_item td.product-remove {
+    width: auto;
 }
