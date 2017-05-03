@@ -685,3 +685,23 @@ img.img-circle {
         margin-left: -200px;
     }
 }
+
+.price_label {
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+}
+
+body.woocommerce-page ul.products li.product .button:before {
+    content: "\f07a";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 5px;
+}
+
+a.added_to_cart.wc-forward {
+    display: none;
+}
