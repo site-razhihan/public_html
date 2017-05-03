@@ -354,6 +354,7 @@ body.woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-cont
   text-transform: none;
   font-weight: 100;
   color: #fff;
+  background: linear-gradient(to top, #060606, #e31e24);
 }
 .woocommerce .widget_price_filter .price_slider_amount .button:hover{
   background: #75151a;
@@ -1303,4 +1304,5 @@ tr.woocommerce-cart-form__cart-item.cart_item a.remove {
 .woocommerce .quantity .qty {
     width: 3.631em;
     text-align: center;
+    color: #fff;
 }
