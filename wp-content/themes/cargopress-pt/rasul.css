@@ -174,7 +174,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 .main-navigation .sub-menu > li > a { display: block; font-size: 16px; font-weight: bold; padding: 4px 20px; background-color: #000; color: #fff; letter-spacing: 2px;}
 .main-navigation .sub-menu > li > a:hover {text-shadow: 0px 0px 1px #e31e24;}
 .main-navigation > li:hover > .sub-menu, .main-navigation > li:focus > .sub-menu, .main-navigation > li[aria-expanded="true"] > .sub-menu { 
-    left: -20px;
+    left: -5px;
     text-align: left;
     padding-top: 5px;
 }
@@ -269,9 +269,10 @@ ul.servises-lust {
   font-size: 18px;
   color: #fff; 
   margin-top: 18px; 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
   padding: 0px 13px;
+  letter-spacing: 2px;
 }
 body.woocommerce-page .widget_product_categories ul > li > a { 
   font-size: 14px; 
@@ -387,9 +388,10 @@ body.woocommerce-page .widget_shopping_cart_content .buttons .wc-forward {
   padding: 5px;
   font-size: 14px;
   text-transform: none;
-  font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
+  font-family: roboto;
   text-transform: none;
-  line-height: 1.25;
+  line-height: 1;
+  font-weight: normal;
 }
 body.woocommerce-page .widget_shopping_cart_content .buttons .wc-forward:hover { 
   background-color: #75151a; 
@@ -436,6 +438,7 @@ body.woocommerce-page ul.products li.product a img{
 }
 body.woocommerce-page ul.products li.product, .woocommerce ul.products li.product {
   width: 30.78%;
+  text-align: center;
 }
 body.woocommerce-page ul.products li.product:hover a img{
 box-shadow: none;
@@ -462,7 +465,6 @@ body.woocommerce-page ul.products li.product .button, .woocommerce ul.products l
   height: 25px;
   font-family: "BebasNeueLight", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  margin-left: 50px;
   padding: 5px;
   margin-bottom: 9px;
   line-height: 1.24;
@@ -1241,4 +1243,13 @@ color: #ff676b;
 }
 #panel-558-1-0-1 p {
     margin: 0 0 0px;
+}
+body.woocommerce-page .widget_price_filter .price_slider_wrapper .price_label {
+    font-size: 16px;
+    line-height: 44px;
+    letter-spacing: 2px;
+}
+body.woocommerce-page .widget_shopping_cart_content .buttons {
+    margin-bottom: 0;
+    letter-spacing: 1px;
 }
