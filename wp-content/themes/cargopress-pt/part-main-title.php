@@ -34,14 +34,22 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 ?>
 <?php if(!is_front_page()) : ?>
 <?php $background_head = get_post_meta($post->ID, 'background-head', true); ?>
+<?php $height_no = get_post_meta($post->ID, 'height_no', true); ?>
+
 <div class="main-title" style="
 <?php 
 	echo esc_attr( $style_attr ); 
+	if(!empty($height_no)){
+		echo 'padding: 100px 0 50px;';
+	}else{
+		echo 'padding: 230px 0;';
+	}
+
 	if(!empty($background_head)){
 		echo 'background:url('.$background_head["guid"].') no-repeat; 
 		background-size: cover; 
 		background-position: top center;
-		margin-top: -75px; ';
+		margin-top: -75px;';
 	} else{
 		echo 'background:url(/wp-content/uploads/2017/04/fon-head.png) no-repeat; 
 		background-size: cover; 
