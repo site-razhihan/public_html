@@ -279,9 +279,9 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     z-index: 20; 
     text-shadow: none;
 }
-.woocommerce .breadcrumbs { 
+/*.woocommerce .breadcrumbs { 
     margin-bottom: 0px;
-}
+}*/
 @media (min-width: 480px) { 
     .breadcrumbs a { margin-top:40px; padding: 0px 0; padding-right: 5px; margin-right: 0; font-size: 14px; font-weight: normal;} 
     .woocommerce  .breadcrumbs a { margin-top:20px; padding: 0px 0; padding-right: 5px; margin-right: 0; font-size: 14px; font-weight: normal;} 
@@ -731,6 +731,6 @@ a.added_to_cart.wc-forward {
     padding-right: 0;
     margin-right: 0;
 }
-.shop_table, .woocommerce-checkout {
+.shop_table, .woocommerce-checkout .woocommerce{
     font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
 }

@@ -40,7 +40,7 @@ $style_attr = CargoPressHelpers::create_background_style_attr( $style_array );
 <?php 
 	echo esc_attr( $style_attr ); 
 	if(!empty($height_no)){
-		echo 'padding: 50px 0;';
+		echo 'padding: 100px 0 50px;';
 	}else{
 		echo 'padding: 230px 0;';
 	}
