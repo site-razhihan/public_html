@@ -731,3 +731,6 @@ a.added_to_cart.wc-forward {
     padding-right: 0;
     margin-right: 0;
 }
+.shop_table, .woocommerce-checkout {
+    font-family: "Roboto-Light", Helvetica, Arial, sans-serif;  
+}
