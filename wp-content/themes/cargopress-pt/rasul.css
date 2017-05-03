@@ -89,7 +89,7 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 @media (min-width: 1200px) { .main-navigation { padding-left: 0px; border-bottom: 3px solid #3a4255; display: inline-block;} }
 @media (min-width: 992px) { 
   .main-navigation > li > a { color: #ffffff; padding: 20px 7px 16px; line-height: 1;} 
-  #menu-menu_2 > li > a { color: #ffffff; padding: 20px 10px 16px; line-height: 1;} 
+  #menu-menu_2 > li > a { padding: 20px 10px 16px; line-height: 1;} 
 
 
   .main-navigation > li:nth-child(1) > a { /*padding-left:0px;*/ } 
@@ -1088,7 +1088,6 @@ img.alignnone.size-full.wp-image-1072 {
 }
 .textwidget .fa {
   font-size: 18px;
-  color: #de1d23;
   margin-right: 6px;
 }
 div#pgc-558-0-0 p {
