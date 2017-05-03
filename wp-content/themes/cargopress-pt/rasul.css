@@ -1300,3 +1300,7 @@ tr.woocommerce-cart-form__cart-item.cart_item a.remove {
     float: left;
     width: 30%;
 }
+.woocommerce .quantity .qty {
+    width: 3.631em;
+    text-align: center;
+}
