@@ -1351,3 +1351,14 @@ body.woocommerce-page .cart-collaterals .cart_totals table tr td {
     font-size: 12px;
     vertical-align: middle;
 }
+.cart_totals h2 {
+    color: #fff;
+}
+
+body.woocommerce-page .cart-collaterals .cart_totals table tr th {
+    color: #fffbfb;
+}
+
+body.woocommerce-page .cart-collaterals .cart_totals table tr td strong .amount {
+    color: #fff;
+}
