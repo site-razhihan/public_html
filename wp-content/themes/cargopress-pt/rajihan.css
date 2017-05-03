@@ -255,7 +255,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     background: url(/wp-content/themes/cargopress-pt/assets/images/vopr-konv.png);
 }
 
-.main-title { padding: 230px 0; margin-bottom: 30px; text-align: center;}
+.main-title { margin-bottom: 30px; text-align: center;}
 .main-title h1{
     text-shadow: rgb(0, 0, 0) 1px 1px 5px;
     letter-spacing: 2px;
