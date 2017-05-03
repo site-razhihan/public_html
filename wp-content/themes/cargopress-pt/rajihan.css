@@ -270,16 +270,23 @@ textarea.wpcf7-form-control.wpcf7-textarea {
     display: none;
 }
 .breadcrumbs { 
-	font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
-	box-shadow: none; 
-	border-top: 0px solid #e6e6e6; 
-	font-size: 14px; 
-	margin-bottom: 30px; 
-	position: relative; 
-	z-index: 20; 
-	text-shadow: none;
+    font-family: "Roboto-Regular", Helvetica, Arial, sans-serif;
+    box-shadow: none; 
+    border-top: 0px solid #e6e6e6; 
+    font-size: 14px; 
+    margin-bottom: 30px; 
+    position: relative; 
+    z-index: 20; 
+    text-shadow: none;
 }
-@media (min-width: 480px) { .breadcrumbs a { margin-top:40px; padding: 0px 0; padding-right: 5px; margin-right: 0; font-size: 14px; font-weight: normal;} }
+.woocommerce .breadcrumbs { 
+    margin-bottom: 0px;
+}
+@media (min-width: 480px) { 
+    .breadcrumbs a { margin-top:40px; padding: 0px 0; padding-right: 5px; margin-right: 0; font-size: 14px; font-weight: normal;} 
+    .woocommerce  .breadcrumbs a { margin-top:20px; padding: 0px 0; padding-right: 5px; margin-right: 0; font-size: 14px; font-weight: normal;} 
+}
+
 .razd{
 	color: #fff!important;
 }
