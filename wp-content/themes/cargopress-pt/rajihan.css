@@ -563,6 +563,10 @@ img.img-circle {
 	line-height: 1; 
 }
 
+.slider-block-mobile{
+    display: none;
+}
+
 @media (max-width: 992px) { 
 	.navbar-toggle{
 	    z-index: 100000;
@@ -667,6 +671,10 @@ img.img-circle {
     }
     .widget.woocommerce.widget_product_search{
         padding: 0 10px;
+    }
+
+    .slider-block-mobile{
+        display: block;
     }
 }
 
