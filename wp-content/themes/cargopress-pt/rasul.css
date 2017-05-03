@@ -89,6 +89,9 @@ body { font-family: "BebasNeueLight", Helvetica, Arial, sans-serif; font-size: 1
 @media (min-width: 1200px) { .main-navigation { padding-left: 0px; border-bottom: 3px solid #3a4255; display: inline-block;} }
 @media (min-width: 992px) { 
   .main-navigation > li > a { color: #ffffff; padding: 20px 7px 16px; line-height: 1;} 
+  #menu-menu_2 > li > a { color: #ffffff; padding: 20px 10px 16px; line-height: 1;} 
+
+
   .main-navigation > li:nth-child(1) > a { /*padding-left:0px;*/ } 
   .main-navigation > li:last-child > a { padding-right:0px!important; } 
   ul#menu-menu_2 > li:nth-child(1) > a { /*padding-left:0px;*/ } 
@@ -1136,9 +1139,7 @@ div#pg-521-4 .textwidget p {
 div#pg-521-4 .alignnone {
     margin: 0px;
 }
-div#pg-521-5 {
-    margin: -22px;
-}
+
 div#panel-521-6-1-0 p {
     font-size: 30px;
     text-align: center;
@@ -1207,4 +1208,37 @@ div#pgc-521-1-1 {
 }
 #huge_it_portfolio_content_1 .og-expander {
     background: rgb(0, 0, 0)!important;
+}
+#pg-558-1 #panel-558-1-0-2 .textwidget ul.servises_li {
+    list-style: decimal;
+}
+#panel-558-1-0-1 .textwidget p {
+    font-size: 30px;
+    font-family: BebasNeueLight;
+    font-weight: 600;
+}
+#pg-558-1 #panel-558-1-0-2 .textwidget ul.servises_li {
+    list-style: decimal;
+    border: s;
+    font-size: 14px;
+    font-family: Roboto-Regular;
+}
+div#panel-558-1-0-0 {
+    margin-bottom: 0px;
+}
+#panel-558-1-0-0 .textwidget p {
+    margin: 0 0 0px;
+}
+.colortext_servises {
+color: #ff676b;
+}
+#panel-558-1-0-2 .textwidget p {
+    font-size: 14px;
+    font-family: Roboto-Regular;
+}
+#panel-558-1-0-0 span.line-razd {
+    margin: 15px 0 0px 0px;
+}
+#panel-558-1-0-1 p {
+    margin: 0 0 0px;
 }
