@@ -895,7 +895,6 @@ body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a {
 }
 #tab-description h2{
   font-size: 22px;
-  font-family: BebasNeue Thin;
   color: #fff;
   margin-left: 10px;
   font-weight: normal;
@@ -980,7 +979,6 @@ body.woocommerce-page #review_form #respond input#submit{
 body.woocommerce-page .upsells.products h2, body.woocommerce-page .related h2 {
   font-size: 24px;
   margin-top: 0;
-  font-family: BebasNeue Thin;
   color: #fff;
   font-weight: normal;
 }
@@ -1256,8 +1254,8 @@ body.woocommerce-page .widget_shopping_cart_content .buttons {
 }
 tr.woocommerce-cart-form__cart-item.cart_item a {
     color: #e31e24;
-    font-family: Roboto-Thin;
-    font-size: 16px;
+    font-family: BebasNeue Thin;
+    font-size: 19px;
 }
 .quantity input.input-text.qty.text {
     background: #000;
